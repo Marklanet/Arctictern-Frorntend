@@ -26,31 +26,31 @@ export default function Footer() {
           <h3>Our Blog</h3>
         </div>
         <div>
-          <h1>Company</h1>
-          <h3>About us</h3>
-          <h3>Our Services</h3>
-          <h3>Contact us</h3>
-          <h3>Why We Are The Best</h3>
-          <h3>Mission and Vission</h3>
-          <h3>Our Blog</h3>
+          <h1>Terms</h1>
+          <h3>Terms and Conditions</h3>
+          <h3>Privacy Policy</h3>
+          <h3>Services</h3>
+          <h3>Cookie Policy</h3>
+          <h3>Refund Policy</h3>
+          <h3>Cancellation Policy</h3>
         </div>
         <div>
-          <h1>Company</h1>
-          <h3>About us</h3>
-          <h3>Our Services</h3>
-          <h3>Contact us</h3>
-          <h3>Why We Are The Best</h3>
-          <h3>Mission and Vission</h3>
+          <h1>Resources</h1>
+          <h3>How It Works</h3>
+          <h3>Free Samples</h3>
+          <h3>FAQs</h3>
           <h3>Our Blog</h3>
+          <h3>Get Help</h3>
+          <h3>Place Order Now</h3>
         </div>
         <div>
-          <h1>Company</h1>
-          <h3>About us</h3>
-          <h3>Our Services</h3>
-          <h3>Contact us</h3>
-          <h3>Why We Are The Best</h3>
-          <h3>Mission and Vission</h3>
-          <h3>Our Blog</h3>
+          <h1>Quick Links</h1>
+          <h3>Home</h3>
+          <h3>Services</h3>
+          <h3>Pricing</h3>
+          <h3>Login</h3>
+          <h3>Create Account</h3>
+          <h3>Request Samples</h3>
         </div>
       </div>
       <div className="diere">
