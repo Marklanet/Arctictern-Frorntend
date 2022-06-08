@@ -60,8 +60,6 @@ margin-bottom: 4vh;
     }
     .first>div{
         margin-top: 5vh;
-        display: flex;
-        flex-direction: row;
         width: 100%;
         height: max-content;
      
