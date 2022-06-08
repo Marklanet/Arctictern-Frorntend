@@ -76,6 +76,11 @@ color: white;
 }
 
 
+.smallscreen{
+    display: none;
+}
+
+
 .togle>img{
    
     cursor: pointer;
@@ -108,9 +113,7 @@ border: 2px solid rgb(130, 202, 250);
         flex: 4;
        
     }
-   .largescreen{
-       display: none;
-   }
+  
 
    .topbar>ul{
     flex: 4;
@@ -119,18 +122,16 @@ border: 2px solid rgb(130, 202, 250);
        display: none !important;
    }
    .smallscreen{
-       display: unset;
+    display: unset;
     display: flex;
     flex-direction: column;
     align-items: center;
    }
 
-   .smallscreen>h2{
-    align-self: center;
-    margin-left: 0px !important;
-    font-size: calc(0.7rem + 1vw);
-    cursor: pointer;
-    color: white;
+   .topbar>ul>h2{
+    
+    font-size: calc(0.7rem + 1vw) !important;
+    
   }
 
    .search{
