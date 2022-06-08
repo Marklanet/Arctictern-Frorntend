@@ -1,0 +1,84 @@
+.whyus{
+    background-color: aliceblue;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.sky>h1{
+text-align: center;
+font-weight: 700;
+font-size: 2rem;
+margin-top: 4vh;
+margin-bottom: 4vh;
+}
+.earth>h1{
+   text-align: center; 
+   font-weight: 700;
+   font-size: 2rem;
+   margin-top: 5vh;
+}
+
+.space{
+    display: flex;
+    width: 86%;
+    margin-left: 7%;
+}
+
+.space>img{
+    width: 40vw;
+    height: 50vh;
+}
+
+.space>div{
+    margin-left: 1vw;
+}
+
+.whyyouneedus>p{
+
+font-size: calc(0.3rem + 1vw);
+}
+
+.whyyouneedus>button{
+    margin-top: 5vh;
+    border: 2px solid #0a265c ;
+    background-color: rgb(130, 202, 250);
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 8px 15px;
+    letter-spacing: 1px;
+    cursor: pointer; 
+}
+
+@media (max-width: 768px) {
+    .whyyouneedus>p{
+
+        font-size: calc(0.4rem + 1vw);
+        }
+        
+}
+
+@media (max-width: 576px) {
+    .whyus{
+       
+        height: max-content;
+       
+    }
+.space{
+
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+}
+.whyyouneedus>p{
+
+    font-size: calc(0.7rem + 1vw);
+    }
+    .space>img{
+        width: 85vw;
+        height: 50vh;
+    }
+
+}
