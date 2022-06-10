@@ -2,8 +2,8 @@
 .topbar{
     
     width: 100%;
-    min-height: 14vh;
-    height: max-content;
+    height: 14vh;
+   
     display: flex;
     flex-direction: column;
     z-index: 100;
@@ -198,8 +198,8 @@ display: none;
 }
 @media (max-width: 480px) {
     .topbar{
-        min-height: 12vh;
-        height: max-content;
+        height: 12vh;
+       
     }
     .togle>img{
        
