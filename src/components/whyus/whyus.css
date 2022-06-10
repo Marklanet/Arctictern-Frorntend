@@ -66,6 +66,7 @@ font-size: calc(0.3rem + 1vw);
         height: max-content;
        
     }
+   
 .space{
 
     display: flex;
@@ -78,7 +79,13 @@ font-size: calc(0.3rem + 1vw);
     }
     .space>img{
         width: 85vw;
-        height: 50vh;
+        height: 40vh;
     }
 
+}
+@media (max-width: 576px) {
+    .space>img{
+        
+        height: 35vh;
+    }
 }

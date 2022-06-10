@@ -69,14 +69,23 @@
         align-items: center;
         margin-left: 0px;
     }
-
+    .imgtxt>img{
+        height: 35vh;
+         
+    }
     .zote>div{
         height: 80%;
         width: 80%;
-        
+        border: 2px solid black;
+        border-radius: 5px;
+        margin-bottom:5vh;
     }
+    
+.zote>div>h1{
+    border: none;
+}
     .zote>div>p{
-        font-size: calc(0.7rem + 1vw);
+        font-size: calc(0.75rem + 1vw);
     }
 
 }
