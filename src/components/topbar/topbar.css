@@ -164,7 +164,7 @@ display: none;
         border-bottom: 4px solid #0a265c;
         border-left: 3px solid #0a265c;
         border-right: 3px solid #0a265c;
-        animation: show 0.5s ease-in-out forwards; 
+        animation: show 0.4s ease-in-out forwards; 
     }
 
     @keyframes show {
@@ -181,7 +181,7 @@ display: none;
       
     .topbar>.downs>h2{
         margin-left: 4vw;
-        animation: showss 3s ease infinite 1s;
+        
     }
 
    
