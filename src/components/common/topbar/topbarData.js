@@ -4,29 +4,29 @@ export const navlist = [
 
     {
         text: "company",
-        path: "/",
+        path: "/aboutus",
     },
     {
         text: "services",
-        path: "/services",
+        path: "/",
     },
 
     {
         text: "order now",
-        path: "/order",
+        path: "/",
     },
     {
         text: "login",
-        path: "/login",
+        path: "/",
     },
 
     {
         text: "pricing",
-        path: "/pricing",
+        path: "/",
     },
     {
         text: "blog",
-        path: "/blog",
+        path: "/",
     },
     {
         text: "contact",
@@ -37,116 +37,116 @@ export const articlelist = [
 
     {
         text: "SEO",
-        path: "/a1",
+        path: "/",
     },
     {
         text: "Product Description and Reviews",
-        path: "/a2",
+        path: "/",
     },
 
     {
         text: "Technology",
-        path: "/a3"
+        path: "/"
     },
     {
         text: "Education",
-        path: "/a3"
+        path: "/"
     },
     {
         text: "Digital Marketing",
-        path: "/a3"
+        path: "/"
     },
     {
         text: "Recipes",
-        path: "/a3"
+        path: "/"
     },
     {
         text: "Food and beverages",
-        path: "/a3"
+        path: "/"
     },
     {
         text: "Outdoor and back life activities",
-        path: "/a3"
+        path: "/"
     },
     {
         text: "Health and wellness",
-        path: "/a3"
+        path: "/"
     },
     {
         text: "Exercise and fitness",
-        path: "/a3"
+        path: "/"
     },
     {
         text: "Sports",
-        path: "/a3"
+        path: "/"
     },
     {
         text: " Fashion and beauty",
-        path: "/a3"
+        path: "/"
     },
     {
         text: "Relationships",
-        path: "/a3"
+        path: "/"
     },
     {
         text: "SaaS (Software-as-a-Service)",
-        path: "/a3"
+        path: "/"
     },
     {
         text: "Alternative health(CBD)",
-        path: "/a3"
+        path: "/"
     },
     {
         text: "Real Estate",
-        path: "/a3"
+        path: "/"
     },
     {
         text: "Travel",
-        path: "/a3"
+        path: "/"
     },
     {
         text: "Ghostwriting",
-        path: "/a3"
+        path: "/"
     },
     {
         text: "Blog post",
-        path: "/a3"
+        path: "/"
     },
     {
         text: "Business plans",
-        path: "/a3"
+        path: "/"
     },
     {
         text: "White papers",
-        path: "/a3"
+        path: "/"
     },
     {
         text: "Video/movie scripts",
-        path: "/a3"
+        path: "/"
     },
     {
         text: "Hemp/Cannabis",
-        path: "/a3"
+        path: "/"
     },
     {
         text: "Parenting",
-        path: "/a3"
+        path: "/"
     },
     {
         text: "Home décor",
-        path: "/a3"
+        path: "/"
     },
     {
         text: "Pregnancy",
-        path: "/a3"
+        path: "/"
     },
     {
         text: "Pets",
-        path: "/a3"
+        path: "/"
     },
     {
         text: "General contents",
-        path: "/a3"
+        path: "/"
     }
 
 ];

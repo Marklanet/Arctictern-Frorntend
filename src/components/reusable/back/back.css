@@ -22,7 +22,7 @@
     margin-top: -7vh;
     -webkit-transform: skewY(3deg);
     transform:skewY(3deg);
-    border-bottom-right-radius: 5% 20%
+ 
   }
   .back::after {
     content: "";
@@ -36,7 +36,7 @@
     margin-top: -7vh;
     -webkit-transform: skewY(3deg);
     transform:skewY(3deg); 
-    border-bottom-right-radius: 5% 20%
+
      
   }
  

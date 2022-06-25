@@ -161,7 +161,9 @@ export default function Topbar() {
       <div className={click ? "downs" : "nodowns"}>
         {navlist.map((list, index) => (
           <li key={index}>
-            <Link to={list.path}>{list.text}</Link>
+            <Link to={list.path} onClick={() => setClick(false)}>
+              {list.text}
+            </Link>
           </li>
         ))}
       </div>
