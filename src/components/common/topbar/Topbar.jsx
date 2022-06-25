@@ -5,6 +5,10 @@ import search from "../../../images/search.png";
 import togle from "../../../images/togle.png";
 import untogle from "../../../images/untogle.png";
 import Dropdown from "./dropdown/Dropdown";
+import { FaBars, FaArrowAltCircleDown } from "react-icons/fa";
+import { MdOutlineCancel } from "react-icons/md";
+import { BsFillCaretDownFill } from "react-icons/bs";
+
 import Dropdownside from "./dropdownside/Dropdownside";
 import {
   navlist,
@@ -85,7 +89,7 @@ export default function Topbar() {
           <li onMouseEnter={onMouseEnter2} onMouseLeave={onMouseLeave2}>
             <Link to="/">
               Company
-              <i className="fas fa-caret-down" />
+              <BsFillCaretDownFill className="topicon" />
             </Link>
             {dropdown2 && (
               <Dropdown
@@ -96,7 +100,9 @@ export default function Topbar() {
           </li>
 
           <li onMouseEnter={onMouseEnter3} onMouseLeave={onMouseLeave3}>
-            <Link to="services">Services</Link>
+            <Link to="services">
+              Services <BsFillCaretDownFill className="topicon" />
+            </Link>
             {dropdown3 && (
               <Dropdownside
                 articlelist={articlelist}
@@ -106,7 +112,7 @@ export default function Topbar() {
           </li>
 
           <li>
-            <Link to="order">Order now</Link>
+            <Link to="order">Ordernow</Link>
           </li>
 
           <li>
@@ -121,7 +127,10 @@ export default function Topbar() {
             <Link to="blog">Blog</Link>
           </li>
           <li onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-            <Link to="login">Account</Link>
+            <Link to="login">
+              Account
+              <BsFillCaretDownFill className="topicon" />
+            </Link>
             {dropdown && <Dropdown dropdata={accountdroplist} />}
           </li>
         </ul>
@@ -132,19 +141,17 @@ export default function Topbar() {
         </div>
 
         <div className="togle">
-          {click === true ? (
-            <img
-              src={untogle}
-              alt=""
+          {click === false ? (
+            <FaBars
+              className="icon"
               onClick={(e) => {
                 e.preventDefault();
                 handleClick();
               }}
             />
           ) : (
-            <img
-              src={togle}
-              alt=""
+            <MdOutlineCancel
+              className="icon"
               onClick={(e) => {
                 e.preventDefault();
                 handleClick();

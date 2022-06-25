@@ -1,6 +1,7 @@
 import React from "react";
 import "./dropdownside.css";
 import { Link } from "react-router-dom";
+import { BsFillCaretRightFill } from "react-icons/bs";
 
 const Dropdownside = ({ articlelist, academiclist }) => {
   const [click, setClick] = React.useState(false);
@@ -30,6 +31,7 @@ const Dropdownside = ({ articlelist, academiclist }) => {
               onClick={() => setClick(false)}
             >
               Article Services
+              <BsFillCaretRightFill className="topicon" />
             </Link>
           </li>
 
@@ -49,6 +51,7 @@ const Dropdownside = ({ articlelist, academiclist }) => {
               onClick={() => setClick(false)}
             >
               Academic Services
+              <BsFillCaretRightFill className="topicon" />
             </Link>
           </li>
 

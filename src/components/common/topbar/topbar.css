@@ -77,8 +77,8 @@
     cursor: pointer;
     color: white;
     font-weight: 500;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     font-variant: tabular-nums;
+   
 }
 
 .largescreen>li:hover {
@@ -89,6 +89,8 @@
   }
 .topbar a{
     color: inherit;
+    display: flex;
+    flex-direction: row;
 }
 .upss>.search{
     width:25%;
@@ -106,7 +108,15 @@
     border: none;
     border-radius: 3px;  
 }
-
+.topbar .topicon{
+    margin-top: 10px;
+    width: 2.5vh;
+    height: 2.5vh;
+    color: #5cabff;
+    
+  
+    
+}
 
 .upss>.search>img{
     margin-left: 2vh;
@@ -123,12 +133,13 @@ display: none;
 
 
 }
-.togle>img{
+.togle>.icon{
     cursor: pointer;
     margin-right: 3vw; 
-    height: 7vh !important ;
+    height: 6vh !important ;
     width:8vh!important;
     border-radius: 3px;
+    color: white;
     border: 2px solid rgb(130, 202, 250);
 }
 
@@ -160,6 +171,7 @@ display: none;
         font-size: calc(0.4rem + 1vw);
         margin-left: 0px;
         padding: 9px 5px;
+       
     }
    
 }

@@ -11,10 +11,13 @@ font-weight: 700;
 font-size: 2rem;
 margin-top: 4vh;
 margin-bottom: 4vh;
-
-
-
 }
+.whyus .listicon{
+color:  #0a265c;
+margin-right: 5px;
+}
+
+
 .earth>h1{
    text-align: center; 
    font-weight: 700;
@@ -40,6 +43,7 @@ margin-bottom: 4vh;
 .whyyouneedus li{
 font-size: calc(0.3rem + 1vw);
 margin-bottom: 1vh;
+
 }
 
 .whyyouneedus>button{
@@ -70,6 +74,10 @@ margin-bottom: 1vh;
         height: max-content;
        
     }
+    .whyyouneedus li{
+        font-size: calc(0.7rem + 1vw);
+        margin-bottom: 1vh;
+     }
    
 .space{
 
