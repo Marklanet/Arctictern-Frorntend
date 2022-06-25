@@ -1,19 +1,22 @@
 import React from "react";
 import "./footer.css";
-import facebook from "../../../images/facebook.png";
-import instergram from "../../../images/instergram.png";
-import twitter from "../../../images/twitter.png";
-import linkedin from "../../../images/linkedin.png";
+import {
+  FaFacebookSquare,
+  FaInstagram,
+  FaTwitterSquare,
+  FaLinkedin,
+} from "react-icons/fa";
+
 import payment from "../../../images/pay.png";
 
 export default function Footer() {
   return (
     <div className="footer">
       <div className="icons">
-        <img src={facebook} alt="facebook" />
-        <img src={instergram} alt="instagram" />
-        <img src={twitter} alt="twitter" />
-        <img src={linkedin} alt="linkedin" />
+        <FaFacebookSquare className="socialicon fb" />
+        <FaInstagram className="socialicon in" />
+        <FaTwitterSquare className="socialicon tw" />
+        <FaLinkedin className="socialicon li" />
       </div>
       <div className="malo">
         <div>

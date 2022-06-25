@@ -43,11 +43,30 @@
     align-self: center; 
 }
 
-.icons>img{
+.icons> .socialicon{
     width: 7vh;
     height: 7vh;
 }
-
+.icons> .fb{
+    color: blue;
+    background-color: white;
+    border-radius: 5px;
+}
+.icons> .tw{
+    color: rgb(25, 164, 206);
+    background-color: white;
+    border-radius: 5px;
+}
+.icons> .in{
+    color: rgb(202, 8, 105);
+    background-color: white;
+    border-radius: 5px;
+}
+.icons> .li{
+    color: rgb(21, 21, 186);
+    background-color: white;
+    border-radius: 5px;
+}
 .malo{
     margin-top: 4vh;
     display: flex;

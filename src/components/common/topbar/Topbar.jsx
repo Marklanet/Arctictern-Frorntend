@@ -1,11 +1,9 @@
 import React, { useState } from "react";
 import "./topbar.css";
 import whitelogo from "../../../images/whitelogo.png";
-import search from "../../../images/search.png";
-import togle from "../../../images/togle.png";
-import untogle from "../../../images/untogle.png";
+
 import Dropdown from "./dropdown/Dropdown";
-import { FaBars, FaArrowAltCircleDown } from "react-icons/fa";
+import { FaBars, FaSearch } from "react-icons/fa";
 import { MdOutlineCancel } from "react-icons/md";
 import { BsFillCaretDownFill } from "react-icons/bs";
 
@@ -137,7 +135,7 @@ export default function Topbar() {
 
         <div className="search">
           <input type="text" placeholder="Search.." />
-          <img src={search} alt="" />
+          <FaSearch className="searchicon" />
         </div>
 
         <div className="togle">
