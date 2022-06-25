@@ -74,9 +74,15 @@ margin-bottom: 1vh;
         height: max-content;
        
     }
+    .whyyouneedus ul{
+       
+       padding: 0;
+       
+     }
     .whyyouneedus li{
         font-size: calc(0.7rem + 1vw);
         margin-bottom: 1vh;
+        margin-left: 0px;
      }
    
 .space{
@@ -85,10 +91,7 @@ margin-bottom: 1vh;
     flex-direction: column;
     height: max-content;
 }
-.whyyouneedus>p{
 
-    font-size: calc(0.7rem + 1vw);
-    }
     .space>img{
         width: 85vw;
         height: 40vh;
