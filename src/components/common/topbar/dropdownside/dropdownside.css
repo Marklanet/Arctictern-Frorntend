@@ -1,0 +1,91 @@
+.dropdown-menu {
+    width: 200px;
+    position: absolute;
+    top: 10vh;
+    margin-left: -15px;
+    list-style: none;
+    text-align: start;
+   
+  }
+  
+  .dropdown-menu li {
+    background: #5cabff;
+    cursor: pointer;
+   
+  }
+  
+  .dropdown-menu li:hover {
+    background: #0a265c;
+  
+    color: #fff;
+  }
+  
+  .dropdown-menu.clicked {
+    display: none;
+  }
+  
+  .dropdown-link {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .fa-caret-down {
+      display: none;
+    }
+  }
+  
+  /* beginning of the */
+
+  .dropdown {
+    position: relative;
+    display: block;
+  }
+  
+
+  /* Dropdown Content (Hidden by Default) */
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0a265c;;
+    min-width: max-content;
+    overflow-y: scroll;
+    max-height: 50vh;
+    z-index: 1;
+    top:0;
+    left: 200px;
+    /* Here I have set the width (minus padding) of the dropdown-content */
+  }
+
+  /* Links inside the dropdown */
+  
+  .dropdown-content a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  /* Change color of dropdown links on hover */
+  
+  .dropdown-content a:hover {
+    background-color: #5cabff;
+    color: black;
+  }
+  
+  /* Show the dropdown menu on hover */
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  
+  

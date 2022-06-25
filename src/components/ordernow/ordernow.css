@@ -44,20 +44,7 @@ border: none;
     display: flex;
     flex-direction: column;
 }
-.order>button{
-   
-    border: 2px solid black ;
-    background-color: #0a265c;
-    width: max-content;
-    color: white;
-    font-weight: 600;
-    font-size: 1rem;
-    border-radius: 5px;
-    padding: 8px 15px;
-    letter-spacing: 1px;
-    cursor: pointer;
-   align-self: center;
-}
+
 
 @media (max-width: 768px) {
     .order>span{

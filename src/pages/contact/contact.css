@@ -1,0 +1,54 @@
+  .contact form div {
+    display: flex;
+  }
+  .contact textarea {
+   
+    border: 2px solid #0a265c ;
+    width: 100%;
+    
+    border-radius: 5px;
+    margin-bottom: 20px;
+  
+  }
+  .contact textarea:active {
+   
+    background-color: rgb(130, 202, 250);
+  
+  }
+  .contact input {
+    margin-bottom: 20px;
+    margin-right: 10px;
+    background-color: rgb(130, 202, 250);
+    border: none;
+    border-bottom: 2px dashed #0a265c;
+    padding: 10px;
+    color: white;
+  }
+  
+  .contact form {
+    padding: 30px;
+    width: 80%;
+    border-radius: 2vh;
+  }
+  @media screen and (max-width: 768px) {
+    .contact h4 {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    .contact form div {
+      flex-direction: column;
+    }
+    .contact input {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .contact form {
+    
+      width: 100%;
+      
+    }
+  }
+
+  

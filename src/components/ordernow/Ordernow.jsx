@@ -175,7 +175,7 @@ export default function Ordernow() {
             <h2>US$ 19.99</h2>
           </div>
         </span>
-        <button>Order Now</button>
+        <button className="btn3">Order Now</button>
       </form>
     </div>
   );
