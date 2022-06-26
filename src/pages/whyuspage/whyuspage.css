@@ -1,0 +1,51 @@
+.whyuspage .flexwrap img{
+    width: 30%;
+    height: 45vh;
+    margin-right: 4vw;
+}
+.whyuspage .flexwrap .word{
+    width: 65%;
+}
+.whyuspage h2{
+    color: #0a265c;
+   
+}
+.whyuspage p{
+   line-height: normal;
+    white-space: initial;
+}
+ 
+.whyuspage .whyyouneedus{
+    width: 65%;
+}
+.whyuspage .hold{
+    width: 30%;
+    margin-left: 3vw;
+}
+
+@media (max-width: 576px) {
+    
+.whyuspage .whyyouneedus{
+    min-width: 65vw;
+    width: 100%;
+} 
+.whyuspage .flexwrap .word{
+    min-width: 65vw;
+    width: 100%;
+}
+.whyuspage .hold{
+    width: 100%;
+    
+}
+.whyuspage .flexwrap img{
+    width: 100%;
+    
+    margin-right: 10vw;
+}
+.whyuspage button{
+    
+    margin-left: 0px;
+}
+   
+        
+}

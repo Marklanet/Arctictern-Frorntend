@@ -1,0 +1,23 @@
+.quicklinks{
+    width: 100%;
+   
+    border-radius: 1vh;
+}
+.quicklinks h2 {
+    color: #0a265c;
+    padding: 5px 5px;
+    margin-bottom: 0px;
+    border-bottom: 2px solid #0a265c;
+   
+}
+.quicklinks ul{
+    list-style: none;
+  
+   
+  padding: 0;
+}
+.quicklinks li{
+    border-bottom: 1px solid rgb(135, 132, 132);
+   cursor: pointer;
+    padding: 5px 5px;
+}

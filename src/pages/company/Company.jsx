@@ -1,28 +1,29 @@
 import React from "react";
 import Back2 from "../../components/reusable/back2/Back2";
 import Heading from "../../components/reusable/heading/Heading";
-import img from "../../images/about.jpg";
-import img2 from "../../images/us2.jpg";
+import img from "../../images/happy2.png";
+import img2 from "../../images/company.png";
 import team from "../../images/team.png";
-import support from "../../images/support.png";
-import setting from "../../images/setting.png";
+import support from "../../images/vission.png";
+import setting from "../../images/mission.png";
 import Quicklinks from "../../components/reusable/quicklinks/Quicklinks";
+import { Link } from "react-router-dom";
 
-import "./aboutus.css";
+import "./company.css";
 
-const Aboutus = () => {
-  const [click, setClick] = React.useState(false);
-
-  const handleClick = () => setClick(!click);
-
+const Company = () => {
   return (
     <>
-      <section className="about mb ">
-        <Back2 name="About Us" title="About Us - Who We Are?" cover={img} />
+      <section className="company mb ">
+        <Back2
+          name="Arctictern Writers"
+          title="Company - Our Vission and Mission"
+          cover={img}
+        />
         <div className="flexi c_flex ">
           <div className="left ">
             <Heading
-              title="Our Writing Story"
+              title="Our Company Story Story"
               subtitle="Check out our company story and work process"
             />
 
@@ -42,10 +43,9 @@ const Aboutus = () => {
               className="btn2"
               onClick={(e) => {
                 e.preventDefault();
-                handleClick();
               }}
             >
-              More About Us
+              <Link to="/contact">Contact Us</Link>
             </button>
           </div>
           <div className="right mt">
@@ -53,12 +53,12 @@ const Aboutus = () => {
           </div>
         </div>
 
-        <div className={click ? "moreabout mt  " : "nodowns"}>
+        <div className="moreabout mt ">
           <div className="dy">
             <div className="cont c_flex">
-              <img src={team} alt="" className="aboutimg" />
+              <img src={team} alt="" className="companyimg" />
               <div>
-                <h2>Our Writers</h2>
+                <h2>Our Definition and Aim</h2>
                 <p>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui,
                   labore aliquam omnis voluptatum laborum, modi quibusdam ullam
@@ -69,7 +69,7 @@ const Aboutus = () => {
             </div>
             <div className="cont cont2 c_flex">
               <div>
-                <h2>24/7 Support for our Clients</h2>
+                <h2>Our Vission</h2>
                 <p>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Ratione, optio soluta sed nesciunt pariatur totam tempore
@@ -77,12 +77,12 @@ const Aboutus = () => {
                   mollitia animi magnam iste dolores, ullam ipsam?
                 </p>
               </div>
-              <img src={support} alt="" className="aboutimg" />
+              <img src={support} alt="" className="companyimg" />
             </div>
             <div className="cont c_flex">
-              <img src={setting} alt="" className="aboutimg" />
+              <img src={setting} alt="" className="companyimg" />
               <div>
-                <h2>Our Specialization</h2>
+                <h2>Our Mission</h2>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Sapiente dignissimos autem vel qui laudantium? Dolore nisi
@@ -101,4 +101,4 @@ const Aboutus = () => {
   );
 };
 
-export default Aboutus;
+export default Company;

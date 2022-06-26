@@ -76,11 +76,15 @@ export default function Topbar() {
     <div className="topbar">
       <div className="upss">
         <div className="imgname">
-          <img src={whitelogo} alt="" />
-          <div className="name">
-            <h2>ARCTIC TERN</h2>
-            <h3>WRITERS</h3>
-          </div>
+          <Link to="/">
+            <img src={whitelogo} alt="" />
+          </Link>
+          <Link to="/">
+            <div className="name">
+              <h2>ARCTIC TERN</h2>
+              <h3>WRITERS</h3>
+            </div>
+          </Link>
         </div>
 
         <ul className="largescreen">

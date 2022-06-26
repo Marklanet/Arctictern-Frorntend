@@ -17,7 +17,7 @@
     
 }
 
-.topbar>.upss{
+.topbar .upss{
     z-index: 99;
     display: flex;
     height: 100%;
@@ -26,19 +26,19 @@
     background-color: #0a265c;
     
 }
-.upss>.imgname{
+.upss .imgname{
     width:25%;
     display: flex;
     height: 100%;
     align-items: center;
 }
-.imgname>img{
+.imgname img{
     height: 10vh !important;
     width: 12vh !important;
     align-self: center;
     margin-left: 2vw;
 }
-.imgname>.name{
+.imgname .name{
     display: flex;
     flex-direction: column;
     height: 12vh;
@@ -58,6 +58,9 @@
     cursor: pointer;
     text-align: center;
     color: rgb(130, 202, 250);
+}
+.name a{
+text-align: center;
 }
 
 .upss>.largescreen{
@@ -87,7 +90,7 @@
     border-radius: 4px;
     transition: all 0.2s ease-out;
   }
-.topbar a{
+.topbar .largescreen a{
     color: inherit;
     display: flex;
     flex-direction: row;
@@ -153,16 +156,16 @@ display: none;
 }
 
 @media (max-width: 768px) {
-    .upss>.imgname{
+    .upss .imgname{
         width:29%;
     }
 
-    .upss>.search{
+    .upss .search{
        
         display: none;
     
     }
-    .upss>.largescreen{
+    .upss .largescreen{
         margin-right: 1vw;
         width: 67%;
     
@@ -177,7 +180,7 @@ display: none;
    
 }
 @media (max-width: 576px) {
-    .upss>.imgname{
+    .upss .imgname{
         width:55%;
     }
     .topbar a{
@@ -240,7 +243,7 @@ display: none;
 }
 @media (max-width: 480px) {
 
-    .upss>.imgname{
+    .upss .imgname{
         width:70%;
        
     }
@@ -255,7 +258,7 @@ display: none;
         width:6.5vh!important;
         
     }
-    .imgname>img{
+    .imgname img{
         height: 6.5vh;
         width: 8vh;
         margin-left: 1vw;
