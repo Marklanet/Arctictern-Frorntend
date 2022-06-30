@@ -3,10 +3,14 @@
   box-sizing: border-box;
 }
 
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: #fff;
   margin: 0;
+}
+button{
+  cursor: pointer;
 }
 p{
   white-space: initial;

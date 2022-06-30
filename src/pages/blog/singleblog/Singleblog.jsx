@@ -17,7 +17,7 @@ const Singleblog = () => {
     if (blog) {
       setBlog(blog);
     }
-  }, []);
+  }, [id]);
 
   return (
     <>
