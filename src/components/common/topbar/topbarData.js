@@ -4,11 +4,11 @@ export const navlist = [
 
     {
         text: "company",
-        path: "/aboutus",
+        path: "/company",
     },
     {
         text: "services",
-        path: "/",
+        path: "/services",
     },
 
     {
@@ -26,7 +26,7 @@ export const navlist = [
     },
     {
         text: "blog",
-        path: "/",
+        path: "/blogs",
     },
     {
         text: "contact",

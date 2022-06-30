@@ -1,0 +1,146 @@
+.blog-wrap {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 3vw;
+  }
+  .blog-wrap h1{
+    text-align: center;
+  }
+  .blog-back{
+    color: #0a265c;
+    font-weight: 700;
+    font-size: large;
+  }
+  .blog-goBack {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #a9a9a9;
+    font-weight: 500;
+    margin-bottom: 0px;
+    display: block;
+    margin-top: 4vh;
+    margin-left: 4vh;
+  }
+  .blog-wrap header {
+    text-align: center;
+  }
+  
+  .blog-date {
+    font-size: 0.8rem;
+    color: #a9a9a9;
+    font-weight: 500;
+  }
+  
+  .blog-wrap img {
+    width: 100%;
+  }
+  
+  .blog-subCategory {
+    display: flex;
+    justify-content: center;
+  }
+  .blog-subCategory > div {
+    margin: 1rem;
+  }
+  .blog-desc {
+    margin-bottom: 10vh;
+    margin-top: 1.5rem;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  
+  .blog-wrap .author img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 3px solid #0a265c;
+    object-fit: cover;
+    margin-right: 0.5rem;
+    margin-left: 5px;
+    margin-bottom: 0px;
+  
+  }
+  .blog-wrap .author {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  .blog-wrap .author .image-name {
+   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 2vh 0px;
+   margin-left: 1vw;
+   min-width: 20%;
+  
+    
+  }
+  .blog-wrap .author .image-name p{
+    white-space: initial;
+  }
+
+  .blog-wrap .author .image-name h4{
+   margin: 0;
+   padding: 0;
+   margin-top: 1vh;
+   
+
+     
+   }
+   
+  
+  .blog-wrap .top-footer {
+    border: 1px solid black;
+    border-radius: 2vh;
+  }
+  .blog-wrap  textarea{
+  
+   width: 100% ;
+   height: 15vh;
+   border: 1px solid black;
+  
+
+  }
+  .blog-wrap .comment{
+    width: 100%;
+   
+ 
+   }
+  .blog-wrap .bottom-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: max-content;;
+  
+
+  }
+  .blog-wrap .icons{
+    display: flex;
+    align-items: center;
+  margin: 0;
+  padding: 0;
+    height: 100%;
+    
+  }
+  .blog-wrap .icon{
+  color : #0a265c;
+ border: 2px solid #5cabff;
+ border-radius: 5px;
+  
+  width: 5vh;
+  height: 5vh;
+  }
+  .blog-wrap h3{
+    color: #0a265c;
+  }
+
+  .blog-wrap button{
+    padding: 8px 15px;
+    border-radius: 1vh;
+    background-color: #5cabff;
+    font-weight: 550;
+    margin-top: 1vh;
+  }

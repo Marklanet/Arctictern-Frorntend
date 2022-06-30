@@ -1,0 +1,56 @@
+.blogs{
+    width: 100%;
+    
+}
+.blogs .down{
+    display: flex;
+    justify-content: space-between;
+  
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+
+.blogs .content{
+    width: 73%;  
+}
+.blogs .sidebar{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.blogs .sidebar .links{
+    padding: 5px 10px;
+    background-color: rgb(130, 202, 250);
+}
+
+@media (max-width: 768px) {
+    .blogs .down{
+        width: 95%;
+    } 
+    .blogs .content{
+        width: 67%;  
+    }
+    .blogs .sidebar{
+        width: 31%;
+        display: flex;
+        flex-direction: column;
+    }
+ }
+ @media (max-width: 480px) {
+    .blogs .content{
+        width: 90%; 
+        margin: auto; 
+    }
+    .blogs .sidebar{
+        width: 90%;
+        margin: auto;
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: column;
+    }
+ }
+
+ 

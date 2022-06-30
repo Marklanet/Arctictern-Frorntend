@@ -62,8 +62,15 @@ width: 65%;
   margin-right: 5vh;
 }
 
-
-
+.company .sublinks{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.company button{
+  margin-right: 2vw;
+}
 
 
 
@@ -109,6 +116,11 @@ flex-direction: column;
             width: 18vh;
             height: 18vh;
             margin-left: 0vh;
+          }
+          .company .sublinks{
+            width: 100%;
+          
+            
           }
   }
   

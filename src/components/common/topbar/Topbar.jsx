@@ -126,7 +126,7 @@ export default function Topbar() {
           </li>
 
           <li>
-            <Link to="blog">Blog</Link>
+            <Link to="blogs">Blog</Link>
           </li>
           <li onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
             <Link to="login">

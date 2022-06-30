@@ -25,6 +25,12 @@
     height: 65px;
     margin: auto;
   }
+  .servicebox label {
+    color: #0a265c;
+  }
+
+  
+
 
   @media screen and (max-width: 768px) {
     .servicebox .box {

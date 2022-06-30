@@ -39,14 +39,32 @@ const Company = () => {
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip.
             </p>
-            <button
-              className="btn2"
-              onClick={(e) => {
-                e.preventDefault();
-              }}
-            >
-              <Link to="/contact">Contact Us</Link>
-            </button>
+            <div className="sublinks">
+              <button
+                className="btn2"
+                onClick={(e) => {
+                  e.preventDefault();
+                }}
+              >
+                <Link to="/contact">Contact Us</Link>
+              </button>
+              <button
+                className="btn2"
+                onClick={(e) => {
+                  e.preventDefault();
+                }}
+              >
+                <Link to="/aboutus">About Us</Link>
+              </button>
+              <button
+                className="btn2"
+                onClick={(e) => {
+                  e.preventDefault();
+                }}
+              >
+                <Link to="/whyus">Why Us</Link>
+              </button>
+            </div>
           </div>
           <div className="right mt">
             <img src={img2} alt="" />
