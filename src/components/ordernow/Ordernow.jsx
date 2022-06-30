@@ -46,9 +46,7 @@ export default function Ordernow() {
             autocomplete="off"
           >
             <option value="- Select -">-- Select Type of Assigment --</option>
-            <option value="Abstract" selected="selected">
-              Abstract
-            </option>
+            <option value="Abstract">Abstract</option>
             <option value="Academic Report">Academic Report</option>
             <option value="Admission Essay">Admission Essay</option>
             <option value="Analysis Paper">Analysis Paper</option>
