@@ -13,6 +13,12 @@ import Academic from "./pages/services/academicservices/Academic";
 import Blogs from "./pages/blog/Blogs/Blogs";
 import Singleblog from "./pages/blog/singleblog/Singleblog";
 import Scrolltop from "./components/scroltop/Scrolltop";
+import Singleservice from "./pages/services/singleservice/Singleservice";
+import Login from "./pages/Account/Login";
+import Password from "./pages/Account/Password";
+import Signup from "./pages/Account/Signup";
+import Order from "./pages/order/Order";
+import Pricing from "./pages/pricing/Pricing";
 
 export default function Main() {
   return (
@@ -27,10 +33,16 @@ export default function Main() {
           <Route exact path="/whyus" element={<Whyuspage />} />
           <Route exact path="/company" element={<Company />} />
           <Route exact path="/services" element={<Services />} />
-          <Route exact path="/articles" element={<Article />} />
-          <Route exact path="/academics" element={<Academic />} />
+          <Route exact path="/services/article" element={<Article />} />
+          <Route exact path="/services/academic" element={<Academic />} />
           <Route exact path="/blogs" element={<Blogs />} />
           <Route exact path="/blogs/:id" element={<Singleblog />} />
+          <Route exact path="/services/:id" element={<Singleservice />} />
+          <Route exact path="/login" element={<Login />} />
+          <Route exact path="/signup" element={<Signup />} />
+          <Route exact path="/reset-password" element={<Password />} />
+          <Route exact path="/order" element={<Order />} />
+          <Route exact path="/pricing" element={<Pricing />} />
         </Routes>
         <Footer />
       </Router>

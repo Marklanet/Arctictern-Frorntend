@@ -27,7 +27,7 @@ const Dropdownside = ({ articlelist, academiclist }) => {
           <li>
             <Link
               className="dropdown-link"
-              to="articles"
+              to="/services/article"
               onClick={() => setClick(false)}
             >
               Article Services
@@ -37,9 +37,14 @@ const Dropdownside = ({ articlelist, academiclist }) => {
 
           <div class="dropdown-content">
             {articlelist.map((item, index) => (
-              <a key={index} href={item.path} onClick={() => setClick(false)}>
+              <Link
+                className="dropdown-link2"
+                key={index}
+                to={item.path}
+                onClick={() => setClick(false)}
+              >
                 {item.text}
-              </a>
+              </Link>
             ))}
           </div>
         </div>
@@ -47,7 +52,7 @@ const Dropdownside = ({ articlelist, academiclist }) => {
           <li>
             <Link
               className="dropdown-link"
-              to="academics"
+              to="/services/academic"
               onClick={() => setClick(false)}
             >
               Academic Services
@@ -57,9 +62,14 @@ const Dropdownside = ({ articlelist, academiclist }) => {
 
           <div class="dropdown-content">
             {academiclist.map((item, index) => (
-              <a key={index} href={item.path} onClick={() => setClick(false)}>
+              <Link
+                className="dropdown-link2"
+                key={index}
+                to={item.path}
+                onClick={() => setClick(false)}
+              >
                 {item.text}
-              </a>
+              </Link>
             ))}
           </div>
         </div>

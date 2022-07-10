@@ -3,33 +3,54 @@
     -webkit-box-shadow: 2px 4px 6px 2px rgba(0,0,0,0.39);
     -moz-box-shadow: 2px 4px 6px 2px rgba(0,0,0,0.39);
     border-radius: 2vh;
-  
-   margin-left: 1vh;
-   margin-right: 1vh;
-   margin-top: 2vh;
-   margin-bottom: 2vh;
-
+    margin: 2vh 1vh;
     background-color: white;
     text-align: center;
     height: 45vh;
     min-height: max-content;
     flex: 1;
-    padding: 30px;
+    
     cursor: pointer;
     min-width: 15vw;
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
  
   .servicebox img {
     width: 65px;
     height: 65px;
-    margin: auto;
+
+   
+   
+  
+    
   }
   .servicebox label {
-    color: #0a265c;
+    color: black;
+    border-radius: 5px;
+    background: linear-gradient(45deg, rgb(48, 179, 48),#5cabff);
+    padding: 7px 15px;
   }
 
+  .servicebox h4 {
+    color: black;
+   }
+  .servicebox button {
+    color: wheat;
+    background-color: #0a265c; 
+  padding: 8px 15px;
+    border-radius: 1vh;
+ margin: 0px;
+ margin-top: 5px;
+    border: none;
+    
   
+   
+   
+  }
 
 
   @media screen and (max-width: 768px) {

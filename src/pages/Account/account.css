@@ -1,0 +1,45 @@
+.account{
+    min-height: 100vh;
+    padding: 5vh;
+}
+.accountform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    background-color: #0a265c;
+    padding: 4vh 4vh;
+    border-radius: 2vh;
+}
+.accountform h1{
+    color: rgb(130, 202, 250);
+    font-size: 2rem;
+}
+.accountform input{
+    margin: 2vh 0px;
+    padding: 2vh 2vh;
+    border-radius: 1vh;
+    width: 90%;
+    font-size: 1rem;
+    border: 2px solid rgb(130, 202, 250) ;
+}
+.accountform ::placeholder{
+    text-transform: capitalize; 
+}
+.accountform button {
+    margin: 1vh 0px;
+    width: max-content;
+    padding: 2vh 4vh;
+    background-color: rgb(130, 202, 250);
+    border: none;
+    border-radius: 1vh;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.accountform span{
+    margin: 2vh 0px;
+    color: #5cabff; 
+    
+}

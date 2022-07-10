@@ -10,7 +10,7 @@ import { academiclist } from "../serviceData";
 
 const Academic = () => {
   return (
-    <section className="company mb ">
+    <section className="company mb academic">
       <Back2
         name="Academic Writing"
         title="Academic Papers - Assignments and Research"
@@ -18,7 +18,7 @@ const Academic = () => {
       />
 
       <div className="flexi c_flex mb">
-        <div className="left ">
+        <div className="left">
           <Heading
             title="Academic Writing"
             subtitle="Check our academic writing and class content"

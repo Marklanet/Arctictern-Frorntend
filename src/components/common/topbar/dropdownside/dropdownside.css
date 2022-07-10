@@ -64,19 +64,21 @@
 
   /* Links inside the dropdown */
   
-  .dropdown-content a {
-    color: white;
+  .dropdown-content .dropdown-link2 {
+    color: white !important;
     padding: 10px 15px;
     text-decoration: none;
+    font-weight: 500;
     display: block;
+    border-bottom: 1px solid wheat;
   }
   
   
   /* Change color of dropdown links on hover */
   
-  .dropdown-content a:hover {
+  .dropdown-content .dropdown-link2:hover {
     background-color: #5cabff;
-    color: black;
+    color: black !important;
   }
   
   /* Show the dropdown menu on hover */

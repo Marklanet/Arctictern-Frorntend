@@ -54,7 +54,7 @@ const Blogs = () => {
                 formSubmit={handleSearchBar}
               />
             </div>
-            <div className="links mt">
+            <div className="links mt ">
               <Quicklinks />
             </div>
           </div>

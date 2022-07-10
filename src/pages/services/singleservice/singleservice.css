@@ -1,0 +1,84 @@
+.singleservice .quickss{
+    width: 30%;
+}
+.singleservice .wrd{
+    width: 65%;
+}
+.singleservice p{
+  line-height: 4.5vh;
+  white-space: initial;
+  text-align: justify;
+  text-justify: distribute;
+
+}
+    
+.singleservice .wrd p{
+    margin-top: 5vh;
+    
+}
+.singleservice .creative div{
+background-color: #0a265c;
+border-radius: 2vh;
+min-height: 25vh;
+width: 30%;
+display: flex;
+margin-bottom: 5vh;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}
+.singleservice .creative div button{
+    margin-bottom: -3vh;
+    background-color:  #5cabff;
+    padding: 8px 16px;
+    border: 3px solid#0a265c ;
+    border-radius: 1vh;
+    font-weight: 550;
+
+    
+}
+.singleservice .creative div button:hover{
+    background-color: white !important;
+    flex-grow: 0.3;
+}
+.singleservice .creative div span{
+color: white;
+padding: 1vh 1vh;
+text-align: center;
+}
+.singleservice .wrd>h1{
+    margin-bottom: 5vh;
+}
+
+.singleservice .creative div li{
+    background-color:  #5cabff;;
+    width: 110%;
+    border: 3px solid#0a265c ;
+    border-radius: 9%;
+    padding: 2vh 0px;
+    text-align: center;
+    margin: 1vh 0px;
+    font-weight: 550;
+}
+
+ @media (max-width: 576px) {
+    .singleservice .quickss{
+        width: 100%;
+    }
+    .singleservice .wrd{
+        width: 100%;
+    }
+    .singleservice .chinnii{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .singleservice .creative div{
+        
+        min-width: 50vw;
+        flex-grow: 1;
+        margin: 5vh 5vh;
+    }
+    .singleservice .wrd>h1{
+        text-align: center;
+    }
+}

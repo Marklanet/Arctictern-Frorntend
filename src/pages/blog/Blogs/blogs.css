@@ -23,7 +23,8 @@
 
 .blogs .sidebar .links{
     padding: 5px 10px;
-    background-color: rgb(130, 202, 250);
+    
+    border: 3px solid #5cabff;
 }
 
 @media (max-width: 768px) {

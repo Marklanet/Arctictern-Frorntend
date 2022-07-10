@@ -90,6 +90,13 @@ margin-right: 5px;
   flex-wrap: wrap;
  
 }
+.d_flexwrap{
+  display: flex;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+ 
+}
 .btn2{
 border: 2px solid #0a265c ;
 color: black;
@@ -101,6 +108,9 @@ letter-spacing: 1px;
 cursor: pointer;
 background-color: rgb(130, 202, 250);
 } 
+.btn2:hover{
+  background-color: white;
+}
 .btn3{
   border: 2px solid black ;
   background-color: #0a265c;
@@ -113,5 +123,8 @@ background-color: rgb(130, 202, 250);
   letter-spacing: 1px;
   cursor: pointer;
  align-self: center;
+}
+.btn3:hover{
+  background-color: black;
 }
 

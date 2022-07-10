@@ -37,116 +37,116 @@ export const articlelist = [
 
     {
         text: "SEO",
-        path: "/",
+        path: "/services/SEO",
     },
     {
         text: "Product Description and Reviews",
-        path: "/",
+        path: "/services/Product-Description-and-Reviews"
     },
 
     {
         text: "Technology",
-        path: "/"
+        path: "/services/Technology"
     },
     {
         text: "Education",
-        path: "/"
+        path: "/services/Education"
     },
     {
         text: "Digital Marketing",
-        path: "/"
+        path: "/services/Digital-Marketing"
     },
     {
         text: "Recipes",
-        path: "/"
+        path: "/services/Recipes"
     },
     {
         text: "Food and beverages",
-        path: "/"
+        path: "/services/Food-and-beverages"
     },
     {
         text: "Outdoor and back life activities",
-        path: "/"
+        path: "/services/Outdoor-and-back-life-activities"
     },
     {
         text: "Health and wellness",
-        path: "/"
+        path: "/services/Health-and-wellness"
     },
     {
         text: "Exercise and fitness",
-        path: "/"
+        path: "/services/Exercise-and-fitness"
     },
     {
         text: "Sports",
-        path: "/"
+        path: "/services/Sportes"
     },
     {
         text: " Fashion and beauty",
-        path: "/"
+        path: "/services/Fashion-and-beauty"
     },
     {
         text: "Relationships",
-        path: "/"
+        path: "/services/Relationships"
     },
     {
         text: "SaaS (Software-as-a-Service)",
-        path: "/"
+        path: "/services/Software-as-a-Service"
     },
     {
         text: "Alternative health(CBD)",
-        path: "/"
+        path: "/services/Alternative-health"
     },
     {
         text: "Real Estate",
-        path: "/"
+        path: "/services/Real-Estate"
     },
     {
         text: "Travel",
-        path: "/"
+        path: "/services/Travel"
     },
     {
         text: "Ghostwriting",
-        path: "/"
+        path: "/services/Ghostwriting"
     },
     {
         text: "Blog post",
-        path: "/"
+        path: "/services/Blog-post"
     },
     {
         text: "Business plans",
-        path: "/"
+        path: "/services/Business-plans"
     },
     {
         text: "White papers",
-        path: "/"
+        path: "/services/White-papers"
     },
     {
-        text: "Video/movie scripts",
-        path: "/"
+        text: "Video and movie scripts",
+        path: "/services/Video-and-movie-scripts"
     },
     {
-        text: "Hemp/Cannabis",
-        path: "/"
+        text: "Hemp Cannabis",
+        path: "/services/Hemp-Cannabis"
     },
     {
         text: "Parenting",
-        path: "/"
+        path: "/services/Parenting"
     },
     {
-        text: "Home décor",
-        path: "/"
+        text: "Home decor",
+        path: "/services/Home-decor"
     },
     {
         text: "Pregnancy",
-        path: "/"
+        path: "/services/Pregnancy"
     },
     {
         text: "Pets",
-        path: "/"
+        path: "/services/Pets",
     },
     {
         text: "General contents",
-        path: "/"
+        path: "/services/General-contents"
     }
 
 ];
@@ -154,94 +154,88 @@ export const academiclist = [
 
     {
         text: "Term Paper Wrinting",
-        path: "/",
+        path: "/services/Term-Paper-Wrinting",
     },
     {
         text: "Research Paper Writing",
-        path: "/",
+        path: "/services/Research-Paper-Writing",
     },
 
-    {
-        text: "IB TOK Essa Writing",
-        path: "/"
-    }
-    ,
+
     {
         text: "Argumentative Essay Writing",
-        path: "/",
+        path: "/services/Argumentative-Essay-Writing",
     },
     {
         text: "Analsis Paper Writing",
-        path: "/",
+        path: "/services/Analsis-Paper-Writing",
     },
 
     {
         text: "Addmission Essay Writing",
-        path: "/"
+        path: "/services/Addmission-Essay-Writing",
     },
     {
         text: "Article Critique Writing",
-        path: "/",
+        path: "/services/Article-Critique-Writing",
     },
     {
         text: "Annotated Bibliography Writing",
-        path: "/",
+        path: "/services/Annotated-Bibliography-Writing",
     },
 
     {
         text: "Book Review Writing",
-        path: "/"
+        path: "/services/Book-Review-Writing"
     }
     ,
     {
         text: "Case Study Writing",
-        path: "/",
+        path: "/services/Case-Study-Writing",
     },
     {
         text: "Literature Review Writing",
-        path: "/",
+        path: "/services/Literature-Review-Writing",
     },
 
     {
         text: "Marketing Plan Essay Writing",
-        path: "/"
+        path: "/services/Marketing-Plan-Essay-Writing"
     },
     {
         text: "IB internal Assessment",
-        path: "/",
+        path: "/services/IB-internal-Assessment",
     },
     {
         text: "Finance and accounting Assignment",
-        path: "/",
+        path: "/services/Finance-and-accounting-Assignment",
     },
 
     {
         text: "Programming Assignment",
-        path: "/"
+        path: "/services/Programming-Assignment"
     }
     ,
-    {
-        text: "Write my Essay for me",
-        path: "/",
-    },
+
     {
         text: "Case Brief Writing",
-        path: "/",
+        path: "/services/Case-Brief-Writing",
     },
 
     {
-        text: "Write my Capson Project",
-        path: "/"
+        text: "Capson Project Writing",
+        path: "/services/Write-my-Capson-Project"
     },
     {
         text: "Extended Essay Writing",
-        path: "/",
+        path: "/services/Extended-Essay-Writing",
     },
     {
         text: "Dissertation Writing",
-        path: "/",
+        path: "/services/Dissertation-Writing",
     }
 ];
+
 
 export const accountdroplist = [
 
@@ -256,7 +250,7 @@ export const accountdroplist = [
 
     {
         text: "Forgot Password ?",
-        path: "/reset"
+        path: "/reset-password"
     }
 
 
