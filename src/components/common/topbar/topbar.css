@@ -133,10 +133,6 @@ text-align: center;
 .upss>.togle{
 display: none;
 
-display: flex;
-flex-direction: column;
-align-items: flex-end;
-
 }
 .togle>.icon{
     cursor: pointer;
@@ -194,8 +190,11 @@ align-items: flex-end;
     .upss>.togle{
         display: unset;
         width:25%;
+        
         display: flex;
-        justify-content: right ; 
+flex-direction: column;
+align-items: flex-end;
+
     }
     .topbar>.downs{
         z-index: 50;

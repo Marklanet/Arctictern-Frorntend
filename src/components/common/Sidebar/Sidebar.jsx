@@ -17,7 +17,7 @@ const Sidebar = () => {
   const handleClick = () => setClick(!click);
   return (
     <div className="sidebar">
-      <ul className={click ? "noside  " : "side"}>
+      <ul className={click ? "noside2  " : "side2"}>
         <button
           onClick={(e) => {
             e.preventDefault();
@@ -98,7 +98,7 @@ const Sidebar = () => {
         </button>
       </ul>
       <div
-        className={click ? "notogle" : "toggle"}
+        className={click ? "notogle2" : "toggle2"}
         onClick={(e) => {
           e.preventDefault();
           handleClick();
@@ -106,7 +106,7 @@ const Sidebar = () => {
       >
         {click === true ? (
           <FaBars
-            className="icon"
+            className="icon2"
             onClick={(e) => {
               e.preventDefault();
               handleClick();
@@ -114,7 +114,7 @@ const Sidebar = () => {
           />
         ) : (
           <MdOutlineCancel
-            className="icon"
+            className="icon2"
             onClick={(e) => {
               e.preventDefault();
               handleClick();

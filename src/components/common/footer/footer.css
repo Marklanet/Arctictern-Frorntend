@@ -46,7 +46,7 @@
 .icons> .socialicon{
     width: 7vh;
     height: 7vh;
-    z-index: 100;
+    z-index: 20;
 }
 .icons> .fb{
     color: blue;

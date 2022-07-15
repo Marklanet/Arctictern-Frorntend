@@ -12,7 +12,7 @@
     justify-content: space-between;
     
 }
-.sidebar .toggle{
+.sidebar .toggle2{
     display: none;
     
 }
@@ -75,14 +75,14 @@
 
 
 }
-.sidebar .noside{
+.sidebar .noside2{
     display: none;
 }
-.sidebar .notogle{
+.sidebar .notogle2{
 
     display: unset;
 }
-.sidebar .icon{
+.sidebar .icon2{
     color: white;
     width: 6vh;
     height: 6vh;
@@ -97,7 +97,7 @@
         border-bottom: 1vh solid rgb(130, 202, 250);;
     }
     
-    .sidebar .toggle{
+    .sidebar .toggle2{
         display: unset;
         margin: 0;
         padding: 0;
