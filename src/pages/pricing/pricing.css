@@ -1,0 +1,104 @@
+.pricing .container .c_flex {
+  height: 70vh;
+  padding-top:0px;
+  flex-wrap: wrap;
+}
+
+.pricing .heading {
+  justify-content: left !important;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.pricing .right{
+  flex :3;
+  height: 70%;
+  background-color: rgb(130, 202, 250);
+  padding: 4vh 5vh;
+  margin-left: -10%;
+  border: 1vh solid white;
+}
+.pricing .right h1{
+  color: #0a265c ;
+  font-size:  calc(1rem + 1vw);
+  padding: 0;
+  margin: 0;
+}
+
+.pricing .right p{
+  font-size: calc(0.3rem + 1vw) !important;
+}
+.pricing .left{
+  flex: 3;
+  height: 90%;
+  margin-top: 0px;
+}
+.pricing .left img{
+  width: 100%;
+  height: 100%;
+  border-radius: 1vh;
+}
+.pricing .tablehold{
+  width: 100%;
+  overflow-x: auto;
+}
+.pricing table{
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+.pricing td, th{
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 5px 2vh;
+}
+
+.pricing tr:nth-child(even){
+  background-color: aliceblue;
+}
+
+@media (max-width: 768px) {
+  .pricing .left{
+    flex: 3.7;
+    height: 80%;
+   }
+   .pricing .right{
+    height: 65%;
+    padding: 3vh 5vh;
+    margin-left: -15%; 
+  }
+  .pricing .right h3{
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .pricing .left{
+    display: none;
+   }
+   .pricing .right{
+    height: 80%;
+    flex-grow: 1;
+    padding: 2vh 5vh;
+    margin-left: 0px; 
+    border: none;
+    
+  }
+  .pricing .right h3{
+    padding: 0;
+    margin: 0;
+  }
+  .pricing .right p{
+    font-size: calc(0.7rem + 1vw) !important;
+  }
+
+  .pricing .right h1{
+    padding: 1.5vh 1vh;
+    text-align: center;
+  }
+  .pricing .right h3{
+    text-align: center;
+  }
+  
+  
+}

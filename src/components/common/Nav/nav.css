@@ -1,0 +1,96 @@
+.navbar{
+    padding: 0px 5vh;
+  margin: 0 5vh;
+ 
+
+    margin-top: 1vh;
+    background-color: white;
+    border-radius: 5px;
+    /*
+    position: sticky;
+    top:15vh;
+    */
+   
+}
+.navbar span{
+    height: max-content;
+}
+.navbar h1{
+   
+    font-size: calc(1rem + 1vw);
+    padding: 0;
+    margin:0;
+}
+.navbar span h4{
+    background-color: #0a265c;;
+    font-size: calc(0.5rem + 1vw);
+   border-radius: 3px;
+    padding:1vh 1.5vw;
+    color:white;
+    
+   
+    
+}
+.navbar div> .importedicon{
+    height: 5.5vh;
+    width: 5.5vh;
+    padding: 0.5vh 0.5vh;
+    color: white;
+    background-color: #0a265c;
+    border-radius: 5px;
+}
+.navbar span> .importedicon{
+    height: 5.5vh;
+    color: #0a265c;
+    width: 5.5vh;
+    background-color: white;
+    border-radius: 5px;
+}
+.navbar b{
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding:2px 10px;
+    margin-top: -5vh;
+    margin-left: -10px;
+    margin-right: 2vh;
+   
+}
+
+@media (max-width: 576px) {
+    .navbar span> .importedicon{
+        height: 4vh;
+       
+        width: 4vh;
+        
+    }
+    .navbar div> .importedicon{
+        height: 4vh;
+        width: 4vh;
+        
+    }
+    .navbar span h4{
+        
+        padding:2px 1.5vw;
+        width: max-content;
+        
+       
+        
+    }
+    .navbar{
+        padding: 0px 2vh;
+      margin: 0 2vh;
+     
+       
+    }
+    .navbar b{
+        background-color: red;
+        color: white;
+        border-radius: 50%;
+        padding:0px 5px !important;
+        margin-top: -4vh;
+        margin-left: -8px;
+        margin-right: 1vh;
+       
+    }
+}

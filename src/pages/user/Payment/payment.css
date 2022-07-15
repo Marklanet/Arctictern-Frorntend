@@ -1,0 +1,22 @@
+.payment{
+    width: 100%;
+}
+.payment .payhold{
+    background-color: white;
+    margin: 5vh 5vh;
+    padding: 5vh 5vh;
+}
+.payment .payhold h1{
+  background-color: #0a265c;
+  text-align: center;
+  padding: 5vh 5vh;
+  color: white;
+  border-radius: 1vh;
+}
+@media (max-width: 576px) {
+  .payment .payhold{
+    background-color: white;
+    margin: 2vh 2vh;
+    padding: 2vh 2vh;
+}
+}

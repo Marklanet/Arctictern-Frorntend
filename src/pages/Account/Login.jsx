@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import "./account.css";
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
+  const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loginmessage, setLoginmessage] = useState("");
@@ -10,6 +12,7 @@ const Login = () => {
     e.preventDefault();
     if (email.length !== 0 && password.length !== 0) {
       setLoginmessage("login will happen");
+      navigate("/user", { replace: true });
     } else {
       setLoginmessage("! fill in all fields");
     }
@@ -18,7 +21,7 @@ const Login = () => {
   return (
     <section className="container account">
       <form className="accountform boxshadow1">
-        <h1>Login Form</h1>
+        <h1>Arctictern Login</h1>
         <input
           type="email"
           placeholder="ENTER EMAIL"

@@ -1,7 +1,7 @@
 import React from "react";
 import "./whyuspage.css";
 import why from "../../images/why.png";
-import img from "../../images/whyus.jpg";
+import img from "../../images/whyus.png";
 import Back2 from "../../components/reusable/back2/Back2";
 import Quicklinks from "../../components/reusable/quicklinks/Quicklinks";
 

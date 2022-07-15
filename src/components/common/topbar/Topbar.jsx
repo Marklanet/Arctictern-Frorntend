@@ -73,7 +73,7 @@ export default function Topbar() {
   };
 
   return (
-    <div className="topbar">
+    <div className="topbar boxshadow1">
       <div className="upss">
         <div className="imgname">
           <Link to="/">
@@ -103,7 +103,8 @@ export default function Topbar() {
 
           <li onMouseEnter={onMouseEnter3} onMouseLeave={onMouseLeave3}>
             <Link to="services">
-              Services <BsFillCaretDownFill className="topicon" />
+              Services
+              <BsFillCaretDownFill className="topicon" />
             </Link>
             {dropdown3 && (
               <Dropdownside
@@ -114,7 +115,7 @@ export default function Topbar() {
           </li>
 
           <li>
-            <Link to="order">Ordernow</Link>
+            <Link to="order-now">Ordernow</Link>
           </li>
 
           <li>

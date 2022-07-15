@@ -1,7 +1,7 @@
 import React from "react";
 import "./screen.css";
 import staticimg from "../../../images/eight.png";
-import Ordernow from "../../../components/ordernow/Ordernow";
+import Orderform from "../../../components/orderform/Orderform";
 export default function Screen() {
   return (
     <div className="screen">
@@ -31,9 +31,9 @@ export default function Screen() {
           </div>
         </div>
         <div className="right">
-          <div className="form pud4">
+          <div className="form pud4 ">
             <h1>Calculate The Price</h1>
-            <Ordernow />
+            <Orderform />
           </div>
         </div>
       </div>

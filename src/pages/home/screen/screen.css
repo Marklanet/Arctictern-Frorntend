@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
 }
+
 .screen>img{
     width: 100%;
     height: 100vh;
@@ -28,23 +29,23 @@
 .screen .form{
     height: max-content;
     width: 65%;
+    padding: 0;
     background-color: rgba(130, 202, 250, 0.9);
     align-self: center;
     border-radius: 10px;
-
     display: flex;
     flex-direction: column;
-    
     -webkit-box-shadow: 0px 0px 18px -10px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 18px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 18px -10px rgba(0, 0, 0, 0.75);
   
 }
 .screen .form>h1{
    text-align: center;
-   margin-top: 0px;
    font-weight: 650 ;
-   margin-bottom: 0px;
-   
+   margin: 0;
+   margin-top: 2vh;
+   padding: 0;
+
 }
 .screen .form>p{
     text-align: center;

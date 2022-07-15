@@ -1,0 +1,36 @@
+.sidesreen{
+display: flex;
+flex-direction: row;
+height: 110vh; 
+
+}
+.sidesreen .sidebarpastor{
+    width: 20%;
+}
+.sidesreen .outlets{
+    width: 80%;
+    margin-top: 0px;
+    background-color: rgb(130, 202, 250);
+    overflow-y: scroll;
+}
+
+@media (max-width: 768px) {
+    .sidesreen{
+        height: 120vh;   
+    }
+   
+}
+@media (max-width: 576px) {
+    .sidesreen{
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+    }
+    .sidesreen .sidebarpastor{
+        width: 100%;
+    }
+    .sidesreen .outlets{
+        width: 100%;
+    }
+   
+}

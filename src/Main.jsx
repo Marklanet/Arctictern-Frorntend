@@ -17,8 +17,16 @@ import Singleservice from "./pages/services/singleservice/Singleservice";
 import Login from "./pages/Account/Login";
 import Password from "./pages/Account/Password";
 import Signup from "./pages/Account/Signup";
-import Order from "./pages/order/Order";
+import Ordernow from "./pages/ordernow/Ordernow";
+import Order from "./pages/user/Orders/Order";
+import User from "./pages/user/User";
 import Pricing from "./pages/pricing/Pricing";
+import Dashboard from "./pages/user/Dashboard/Dashboard";
+import Messages from "./pages/user/Messages/Messages";
+import Payment from "./pages/user/Payment/Payment";
+import Profile from "./pages/user/Profile/Profile";
+import Reviews from "./pages/user/Reviews/Reviews";
+import Support from "./pages/user/Support/Support";
 
 export default function Main() {
   return (
@@ -41,9 +49,21 @@ export default function Main() {
           <Route exact path="/login" element={<Login />} />
           <Route exact path="/signup" element={<Signup />} />
           <Route exact path="/reset-password" element={<Password />} />
-          <Route exact path="/order" element={<Order />} />
+          <Route exact path="/order-now" element={<Ordernow />} />
           <Route exact path="/pricing" element={<Pricing />} />
+
+          <Route exact path="/user" element={<User />}>
+            <Route index element={<Dashboard />} />
+            <Route exact path="dashboard" element={<Dashboard />} />
+            <Route exact path="order" element={<Order />} />
+            <Route exact path="profile" element={<Profile />} />
+            <Route exact path="payment" element={<Payment />} />
+            <Route exact path="messages" element={<Messages />} />
+            <Route exact path="reviews" element={<Reviews />} />
+            <Route exact path="support" element={<Support />} />
+          </Route>
         </Routes>
+
         <Footer />
       </Router>
     </>

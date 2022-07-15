@@ -11,32 +11,33 @@
    margin-top: 5vh;
    margin-bottom: 5vh;
 }
-.zote{
+.working .zote{
     display: flex;
     width: 85%;
     margin-left: 7.5%;
     justify-content: space-between;
     
 }
-.zote>div{
+.working .zote>div{
     height: 80%;
     width: 30%;
+    
   
 }
 
 
-.zote>div>h1{
+.working .zote>div>h1{
     text-align: center;
     font-size: 3rem;
     font-weight: 700;
     color: #0a265c;
     border-bottom: 3px solid black;
 }
-.zote>div>p{
+.working .zote>div>p{
     text-align: center;
     
 }
-.imgtxt{
+.working .imgtxt{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,11 +45,12 @@
     align-items: center;
     width: 100%;
 }
-.imgtxt>img{
+.working .imgtxt>img{
     height: 40vh;
-    width: 100%;  
+    width: 100%; 
+    border-radius: 1vh; 
 }
-.imgtxt>h1{
+.working .imgtxt>h1{
    position: absolute;
    color: rgb(130, 202, 250); 
    font-weight: 700;
@@ -61,7 +63,7 @@
         
         height: max-content;
     }
-    .zote{
+    .working .zote{
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -69,11 +71,12 @@
         align-items: center;
         margin-left: 0px;
     }
-    .imgtxt>img{
+    .working .imgtxt>img{
         height: 35vh;
+        border-radius: inherit; 
          
     }
-    .zote>div{
+    .working .zote>div{
         height: 80%;
         width: 80%;
         border: 1px solid gray;
@@ -83,10 +86,10 @@
         margin-bottom:5vh;
     }
     
-.zote>div>h1{
+    .working .zote>div>h1{
     border: none;
 }
-    .zote>div>p{
+    .working .zote>div>p{
         font-size: calc(0.75rem + 1vw);
     }
 

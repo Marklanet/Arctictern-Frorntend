@@ -1,36 +1,65 @@
 
 
 export const navlist = [
-
     {
-        text: "company",
+        text: "Home",
+        path: "/",
+    },
+    {
+        text: "Company",
         path: "/company",
     },
     {
-        text: "services",
-        path: "/services",
+        text: "About Us",
+        path: "/aboutus",
+    },
+    {
+        text: "Why Us",
+        path: "/whyus",
     },
 
     {
         text: "order now",
-        path: "/",
+        path: "/order-now",
+    },
+    {
+        text: "pricing",
+        path: "/pricing",
     },
     {
         text: "login",
-        path: "/",
+        path: "/login",
+    },
+    {
+        text: "signup",
+        path: "/signup",
+    },
+    {
+        text: "Reset Password",
+        path: "/reset-password",
+    },
+    {
+        text: "Article Services",
+        path: "/services/article",
     },
 
     {
-        text: "pricing",
-        path: "/",
+        text: "Academic Services",
+        path: "/services/academic",
+    },
+    {
+        text: "All Services",
+        path: "/services",
+    },
+
+
+    {
+        text: "contact",
+        path: "/contact",
     },
     {
         text: "blog",
         path: "/blogs",
-    },
-    {
-        text: "contact",
-        path: "/contact",
     },
 ];
 export const articlelist = [

@@ -45,7 +45,7 @@ const Blogs = () => {
           <div className="content mt">
             {!blogs.length ? <EmptyList /> : <BlogList blogs={blogs} />}
           </div>
-          <div className="sidebar mt">
+          <div className="sidebarr mt">
             <div className="cat ">
               <Categories
                 handleCategory={(value) => {

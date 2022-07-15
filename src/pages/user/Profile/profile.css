@@ -1,0 +1,121 @@
+.profile{
+    width: 100%;
+
+}
+
+.profile .change-profile{
+    margin: 5vh 5vh;
+    border: 4vh solid white;
+    padding: 1vh 3vh;
+    overflow-x: auto;
+
+}
+.profile .change-form{
+  border-left: 1vh solid white;
+  border-right: 1vh solid white;
+}
+.profile .change-form .inputs{
+    display: flex;
+    flex-direction: column;
+    padding: 1vh 2vh;
+
+}
+.profile .change-form input{
+   padding: 5px 10px;
+   margin: 1vh 0px;
+}
+.profile .image{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color:  rgb(130, 202, 250) ;
+}
+.profile .image img{
+   border-radius: 1vh;
+}
+.profile .change-form {
+    flex: 3;
+    margin: 0px 4vh;
+}
+
+.profile .seen-as{
+    flex: 2;
+}
+
+.profile .seen-as .rate{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 14vh;
+    background-color: white;
+}
+.profile .seen-as .rate img{
+    
+    height: 100%;
+    width: 14vh;
+    margin-right: 2vh;
+
+}
+.profile .progress {
+    background-color: white ;
+   margin-bottom: 2vh;
+    
+}
+.profile .btn3{
+    border: none !important;
+    margin-top: 2vh;
+}
+.profile .progress span{
+    background-color: #0a265c ;
+    padding: 1vh 1vh;
+    border-radius: 1vh;
+    margin: 2vh 2vh;
+    color: white;
+    text-align: center;
+    
+}
+.profile .change-password{
+    margin: 5vh 5vh;
+    background-color: white;
+    padding: 5vh 5vh;
+}
+.profile .change-password div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.profile .change-password div span{
+   flex: 2;
+    background-color: #dddd;
+    margin: 1vh 0px;
+    padding: 8px 8px;
+}
+.profile .change-password div input{
+    flex: 8;
+    margin: 1vh 1vh;
+    padding: 8px 8px;
+ }
+
+@media (max-width: 576px) {
+    .profile .change-password{
+    margin: 5vh 2vh;         
+    padding: 5vh 2vh;
+    }
+    .profile .change-profile{
+    margin: 5vh 2vh;
+    border: 2vh solid white;
+    padding: 1vh 2vh;
+    overflow-x: auto;
+    }
+
+}
+  
+
+ @media (max-width: 480px) {
+    .profile .change-password div input{
+        
+        margin: 1vh 0vh;
+        padding: 8px 8px;
+     } 
+ }
+ 
+   

@@ -1,0 +1,22 @@
+.reviews{
+    width: 100%;
+}
+.reviews .chch{
+    background-color: white;
+    margin: 5vh 5vh;
+    padding: 5vh 5vh;
+}
+
+.reviews .revhold{
+    background-color: rgb(130, 202, 250);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width: 576px) {
+    .reviews .chch{
+        background-color: white;
+        margin: 5vh 2vh;
+        padding: 5vh 2vh;
+    }
+}

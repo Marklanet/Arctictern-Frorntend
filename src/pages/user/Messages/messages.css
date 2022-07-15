@@ -1,0 +1,48 @@
+.messages{
+    width: 100%;
+    
+}
+.messages .chch{
+    background-color: white;
+    margin: 5vh 5vh;
+    padding: 5vh 5vh;
+}
+
+.messages .revhold{
+    background-color: rgb(130, 202, 250);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.messages .filter{
+    background-color: white;
+    display: flex;
+    margin: 5vh 5vh;
+    padding: 5vh 5vh;
+    overflow-x: auto;
+}
+
+.messages .filter button{
+    padding: 8px 5vh;
+    border: none;
+    margin-right: 1vh;
+    border-radius: 2px;
+}
+.messages .filter button:focus{
+    background-color:  #0a265c;
+    color: rgb(130, 202, 250);
+}
+
+@media (max-width: 576px) {
+    .messages .chch{
+        background-color: white;
+        margin: 3vh 2vh;
+        padding: 3vh 2vh;
+    }
+    .messages .filter{
+        
+        margin: 4vh 2vh;
+        padding: 4vh 2vh;
+      
+    }
+}

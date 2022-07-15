@@ -1,0 +1,48 @@
+.orderform{
+    width: 100%;
+    padding: 1vh 5vh;
+}
+.orderform .boxx{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px 0px;
+    
+
+}
+.orderform select{
+    padding: 8px 10px;
+    width: 100%;
+    background-color: #0a265c;
+    color: white; 
+    cursor: pointer;
+
+   
+}
+.orderform select option{
+   cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+    border-bottom: 2px solid wheat !important;
+}
+.orderform .price span{
+    background-color: rgb(229, 112, 112);
+    text-decoration: line-through;
+    margin-right: 5vh;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: 500;
+    
+}
+.orderform .price b{
+    background-color: green;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.orderform .price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh 0px;
+   ;
+}

@@ -1,0 +1,40 @@
+.support{
+width: 100%;
+}
+.support .chch{
+    background-color: white;
+    margin: 5vh 5vh;
+    padding: 5vh 5vh;
+}
+.support .support-form{
+    background-color: rgb(130, 202, 250) ;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.support .inputs{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 5vh 5vh;
+    justify-content: space-between;
+   
+}
+
+.support .lststs input{
+    flex-grow: 1;
+}
+.support .lststs button{
+    margin-top: 1vh;
+}
+.support .inputs input{
+   padding: 8px 1vh;
+   
+}
+@media (max-width: 576px) {
+    .support .chch{
+        background-color: white;
+        margin: 5vh 2vh;
+        padding: 5vh 2vh;
+    }
+}

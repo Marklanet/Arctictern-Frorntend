@@ -99,7 +99,7 @@ export default function Footer() {
             and subsequently tackle them easily.
           </p>
         </div>
-        <div className="payment">
+        <div className="pay">
           <h1>Payment Accepted</h1>
           <img src={payment} alt="" />
         </div>

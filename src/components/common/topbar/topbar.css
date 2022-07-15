@@ -112,7 +112,8 @@ text-align: center;
     border-radius: 3px;  
 }
 .topbar .topicon{
-    margin-top: 10px;
+    padding: inherit;
+    align-self: flex-end;
     width: 2.5vh;
     height: 2.5vh;
     color: #5cabff; 
@@ -132,15 +133,19 @@ text-align: center;
 .upss>.togle{
 display: none;
 
+display: flex;
+flex-direction: column;
+align-items: flex-end;
 
 }
 .togle>.icon{
     cursor: pointer;
-    margin-right: 3vw; 
+    margin-right: 3vw !important; 
     height: 6vh !important ;
     width:7vh!important;
     border-radius: 3px;
     color: white;
+    justify-self: flex-end;
     border: 2px solid rgb(130, 202, 250);
 }
 

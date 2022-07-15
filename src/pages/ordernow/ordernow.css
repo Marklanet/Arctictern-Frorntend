@@ -1,0 +1,277 @@
+.ordernow {
+    width: 100%;
+    padding: 2vh 5vw;
+    
+    
+}
+.ordernow .boxx{
+    display: flex;
+    width: 100%;
+    padding: 5px 5vh;
+}
+.ordernow .lstbox{
+    display: flex;
+    width: 100%;
+    padding: 5px 5vh;
+}
+.ordernow .boxx span{
+    width: 20%;
+    margin: 1vh 0px;
+}
+.ordernow h1{
+    margin: 2vh 5vh; 
+  
+}
+
+    .ordernow .basicdetails{
+        background-color:  rgb(130, 202, 250);
+        margin: 4vh 5vh;
+        padding: 5vh 0px;
+        border-radius: 1vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ordernow .basicdetails h1{
+        align-self: flex-start;
+        
+    }
+
+.ordernow  select{
+    padding: 8px 10px;
+    margin: 1vh 0px;
+    width: 75%;
+    background-color: whitesmoke;
+    color: black; 
+    cursor: pointer;
+
+   
+}
+.ordernow  input{
+    padding: 8px 10px;
+    margin: 1vh 0px;
+    width: 75% !important;
+    background-color: whitesmoke;
+    color: black; 
+   
+   
+}
+.ordernow textarea{
+    padding: 8px 10px;
+    margin: 1vh 0px;
+    width: 75% !important ;
+    background-color: whitesmoke;
+    color: black; 
+
+}
+.ordernow select option{
+   cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+    border-bottom: 2px solid wheat !important;
+}
+
+.ordernow .price span{
+    background-color: rgb(229, 112, 112);
+    text-decoration: line-through;
+    margin:  0px 5vh;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: 500;
+
+    
+}
+.ordernow .price b{
+    background-color: green;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-left: 5vh;
+}
+.ordernow .price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh 0px;
+   ;
+}
+.ordernow .progress{
+    padding: 2vh 2vh;
+    margin: 5vh 5vh;
+    height: 30vh;
+    border-radius: 1vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    background-color: rgb(130, 202, 250);
+}
+.ordernow .progress div{
+   display: flex;
+   flex-direction: column;
+  
+   align-items: center;
+   height: 85%;
+    flex:1;
+   
+}
+
+.ordernow .progress div div{
+    background-color: white;
+    font-size: calc(1rem + 1vw);
+    font-weight: 600;
+    width: 7.5vw !important;
+    height: 7.5vw !important;
+   border-radius: 50%;
+   text-align: center; 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  
+   margin-bottom: 2vh;
+   
+  
+}
+.ordernow .line-right{
+    position: relative;
+}
+.ordernow .line-right::after{
+   display: inline-block;
+   content: "";
+   width: 180%;
+   height: 1vw;
+   background: white;
+   position: absolute;
+   right: 100%;
+   top:42%;
+   z-index: 30;
+}
+.ordernow .a{
+    background-color: #0a265c !important;
+    border: 1.5vh solid white !important;
+    color: white;
+}
+.ordernow .progress div{
+    text-align: center;
+}
+.ordernow .progress div span{
+    font-size: calc(0.5rem + 1vw);
+    font-weight: 500;
+    
+    
+}
+.lstbox{
+    overflow: hidden;
+}
+.ordernow .btnlst{
+margin: 5vh 5vh !important;
+
+}
+.ordernow .lstbox button{
+    margin-right: 5vh;
+}
+.lstbox input{
+    padding: 1.5vh 1vh;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+   
+    .ordernow {
+        
+        padding: 2vh 3.5vw;
+      
+        
+    }
+    
+ }
+ @media (max-width: 576px) {
+    .ordernow {
+        padding: 2vh 0vw;  
+    }
+    .ordernow .basicdetails{
+        margin: 4vh 2vh;
+    }
+    .ordernow .progress{
+        margin: 5vh 2vh;
+    }
+
+    .ordernow .progress div div{
+       
+        width: 15vw !important;
+        height: 1vw !important;
+       margin: 1vh 0px;
+       padding: 0px 0px;
+    }
+    .ordernow .line-right::after{
+        
+        width: 50%;
+        height: 1vw;
+      
+       
+        top:48%;
+       
+     }
+}
+
+ @media (max-width: 480px) {
+    
+    .ordernow .price b{
+       
+        margin-left: 0px;
+    }
+    .ordernow .boxx{
+        flex-direction: column;
+        
+    }
+    .ordernow .heading{
+        text-align: center;
+    }
+    .ordernow .boxx span{
+        width: 100%;
+        
+    }
+    .ordernow  select{
+        
+        width: 100%;
+        
+    
+       
+    }
+    .ordernow  input{
+       
+        width: 100% !important;
+      
+       
+       
+    }
+    .ordernow textarea {
+       
+        width: 100% !important;
+      
+       
+    }
+    .ordernow .a{
+        background-color: #0a265c !important;
+        border: 1vh solid white !important;
+        color: white;
+    }
+    .ordernow .progress div div{
+       
+        
+       margin: 0;
+       margin-bottom: 3vh;
+    }
+    .ordernow .progress{
+        padding: 1vh 2vh;
+    }
+    .ordernow .btnlst{
+       align-self: center;
+     
+       
+        
+    }
+ }
+
+ 

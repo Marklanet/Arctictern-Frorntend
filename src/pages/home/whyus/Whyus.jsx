@@ -2,7 +2,7 @@ import React from "react";
 import "./whyus.css";
 import { GiCheckMark } from "react-icons/gi";
 
-import whyusimg from "../../../images/us.jpg";
+import whyusimg from "../../../images/us.png";
 
 export default function Whyus() {
   return (
