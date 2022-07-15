@@ -179,8 +179,10 @@
   border: 2px solid #5cabff;
   }
   .back3 p{
-   margin-bottom: 5vh;
+   margin-bottom: 4vh;
     color:  rgb(130, 202, 250);
+    line-height: normal;
+ 
     
   }
   @media (max-width: 768px) {
@@ -201,5 +203,20 @@
       width: 100%;
       
      
+    }
+    .back3 img {
+      
+      margin-top: 0vh;
+      -webkit-transform: skewY(0deg);
+      transform:skewY(0deg);
+   
+    }
+    .back3::after {
+      
+      margin-top: 0vh;
+      -webkit-transform: skewY(0deg);
+      transform:skewY(0deg); 
+  
+       
     }
   }

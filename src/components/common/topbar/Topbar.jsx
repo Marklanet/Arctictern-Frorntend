@@ -73,7 +73,7 @@ export default function Topbar() {
   };
 
   return (
-    <div className="topbar boxshadow1">
+    <div className="topbar">
       <div className="upss">
         <div className="imgname">
           <Link to="/">

@@ -66,4 +66,19 @@ font-size: calc(0.3rem + 1vw);
     .some33{
         margin-bottom: 5vh;
     }
+
+    .ourservices>div>div>h2{
+        
+        font-size: calc(1rem + 1vw);
+    }
+    .ourservices>div>div>p{
+        
+       
+        font-size: calc(0.7rem + 1vw);
+    }
+    .some2>ul>li{
+   
+    font-size: calc(0.5rem + 1vw);
+    margin: 1vh 0px;
+    }
 }
