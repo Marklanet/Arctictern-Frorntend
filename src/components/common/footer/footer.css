@@ -115,10 +115,10 @@
     font-size: calc(0.8rem + 1vw); 
 }
 .footer h3{
-    font-size: calc(0.5rem + 1vw); 
+    font-size: calc(0.6rem + 1vw); 
 }
 .footer p{
-    font-size: calc(0.5rem + 1vw);
+    font-size: calc(0.6rem + 1vw);
 }
 .icons>img{
     width: 5vh;
