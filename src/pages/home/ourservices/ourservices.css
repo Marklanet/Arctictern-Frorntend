@@ -1,6 +1,6 @@
 .ourservices{
     background-color: #0a265c;
-    height: 120vh;
+   
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -8,20 +8,21 @@
 .ourservices>div{
     display: flex;
     width: 86%;
-    margin-left: 7%;
+    margin: 5vh 7%;
+    
+    
+    
 }
 .ourservices>div>div{
     width: 45%;
 }
-.lft{
+.ourservices .lft{
     margin-left: 10%;
 }
 
-.ourservices>div>div>div{
-    display: flex;
-}
+
 .ourservices>div>div>h2{
-    margin-top: 2vh;
+    margin-top: 0px;
     color: rgba(130, 202, 250, 0.9);
     font-size: calc(0.7rem + 1vw);
 }
@@ -31,49 +32,73 @@
     font-size: calc(0.3rem + 1vw);
 }
 .some2>ul>li{
-list-style: circle;
-color: white;
-font-size: calc(0.3rem + 1vw);
+    list-style: circle;
+    color: white;
+    font-size: calc(0.3rem + 1vw);
+    margin-left: 0px;
+    padding: 0;
+
+}
+.some2>ul{
+    margin: 0;
+    padding: 0 5%;
+    
+}
+.ourservices .some2{
+    display: flex;
+   
+    justify-content: space-between;
+    padding-left: 0px;
 }
 
 .some2>ul>li::marker {
     color: rgb(130, 202, 250);
     list-style:circle;
 }
-
-.upps{
-    margin-top: 5vh;
+.ourservices button{
+    margin: 1vh 0px;
 }
+
 
 @media (max-width: 576px) {
     .ourservices>div{
         display: flex;
         flex-direction: column;
-        width: 86%;
-        margin-left: 7%;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+      
+       
     }
     .ourservices{
        height: max-content;
     }
 
     .ourservices>div>div{
-        width: 90%;
+        width: 100%;
+        border-bottom: 2px solid rgb(130, 202, 250);  
+    }
+    .ourservices .lft{
+        margin: 1vh 0px;
+      
         
+      
     }
-    .lft{
-        margin-left: 0%;
-    }
+    
     .some33{
         margin-bottom: 5vh;
     }
-
+   
     .ourservices>div>div>h2{
-        
+        text-align: center;
         font-size: calc(1rem + 1vw);
+        margin-top: 2vh;
     }
+    
     .ourservices>div>div>p{
         
-       
+        white-space: initial;
+        text-align: justify;
         font-size: calc(0.7rem + 1vw);
     }
     .some2>ul>li{
@@ -81,4 +106,5 @@ font-size: calc(0.3rem + 1vw);
     font-size: calc(0.5rem + 1vw);
     margin: 1vh 0px;
     }
+    
 }

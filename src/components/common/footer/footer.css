@@ -126,6 +126,13 @@
 }
 .icons{  
 margin-top: -19px;
+width: 90%;
+}
+
+.icons> .socialicon{
+    width: 5vh;
+    height: 5vh;
+   
 }
 
 }

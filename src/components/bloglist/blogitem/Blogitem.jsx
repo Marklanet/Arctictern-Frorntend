@@ -19,7 +19,9 @@ const BlogItem = ({
     <div className="blogItem-wrap">
       <img className="blogItem-cover" src={cover} alt="cover" />
       <Chip label={category} />
-      <span>{title}</span>
+      <Link className="blogItem-link" to={`/blogs/${id}`}>
+        <span>{title}</span>
+      </Link>
       <p className="blogItem-desc">{description}</p>
       <footer>
         <div className="blogItem-author">

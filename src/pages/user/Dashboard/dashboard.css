@@ -125,7 +125,7 @@
     background-color: rgb(130, 202, 250) ;
     
 }
-.dashboard h1{
+.dashboard .uu{
     margin-left: 5vh;
 }
 .ordlst{
@@ -141,6 +141,9 @@
         border-bottom-left-radius: 0vh;
         border-bottom-right-radius: 0vh;
     
+    }
+    .dashboard .uu{
+        margin-left: 2vh;
     }
     .ord{
         padding: 1vh 2vh ;

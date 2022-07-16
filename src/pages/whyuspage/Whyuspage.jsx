@@ -4,7 +4,7 @@ import why from "../../images/why.png";
 import img from "../../images/whyus.png";
 import Back2 from "../../components/reusable/back2/Back2";
 import Quicklinks from "../../components/reusable/quicklinks/Quicklinks";
-
+import { Link } from "react-router-dom";
 import { GiCheckMark } from "react-icons/gi";
 
 const Whyuspage = () => {
@@ -63,7 +63,9 @@ const Whyuspage = () => {
                 Free revision until you get satisfied
               </li>
             </ul>
-            <button>Place Order Now</button>
+            <button className="btn3">
+              <Link to="/order-now">Place Order Now</Link>
+            </button>
           </div>
           <div className="hold">
             <Quicklinks />

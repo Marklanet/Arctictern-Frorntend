@@ -17,9 +17,10 @@
 }
 .blogItem-wrap span {
   margin: 0;
-  padding: 0px 5px;
+  padding: 0;
   font-weight: 600;
   font-size: 1.1rem;
+  text-align: center !important;
 }
 
 .blogItem-desc {
@@ -51,7 +52,7 @@
   text-decoration: none;
   color: #0a265c;
   font-weight: 550;
-  margin-right: 5px;
+  padding: 0 5px;
 }
 .blogItem-wrap footer{
 width: 98%;

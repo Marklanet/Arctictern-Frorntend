@@ -38,7 +38,7 @@ const Dashboard = () => {
           </div>
         </div>
       </div>
-      <h1>Orders in Progress</h1>
+      <h1 className="uu">Orders in Progress</h1>
       <div className="ord">
         <ul className="c_flex">
           <li>ORDER NO</li>
@@ -53,7 +53,7 @@ const Dashboard = () => {
           <b>No Order Found!!</b>
         </span>
       </div>
-      <h1>Pending Payments</h1>
+      <h1 className="uu">Pending Payments</h1>
       <div className="ord">
         <ul className="c_flex">
           <li>S. NO.</li>
@@ -66,7 +66,7 @@ const Dashboard = () => {
           <b>No Order Found!!</b>
         </span>
       </div>
-      <h1>Orders</h1>
+      <h1 className="uu">Orders</h1>
       <div className="ord ordlst mb">
         <ul className="c_flex">
           <li>ORDER NO</li>

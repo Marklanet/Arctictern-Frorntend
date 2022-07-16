@@ -1,12 +1,12 @@
 import React from "react";
 import "./whyus.css";
 import { GiCheckMark } from "react-icons/gi";
-
+import { Link } from "react-router-dom";
 import whyusimg from "../../../images/us.png";
 
 export default function Whyus() {
   return (
-    <div className="whyus">
+    <div className="whyus butonfix">
       <div className="sky">
         <h1>WHY SHOULD YOU USE OUR SERVICES?</h1>
       </div>
@@ -45,7 +45,10 @@ export default function Whyus() {
               Free revision until you get satisfied
             </li>
           </ul>
-          <button>Place Order Now</button>
+
+          <button className="btn2">
+            <Link to="/order-now">Place Order Now</Link>
+          </button>
         </div>
       </div>
 

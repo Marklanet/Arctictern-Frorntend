@@ -43,18 +43,10 @@ margin-bottom: 1vh;
 
 }
 
-.whyyouneedus>button{
-    margin-top: 5vh;
+.butonfix button{
+    
     margin-left: 6vh;
-    border: 2px solid #0a265c ;
-    background-color: rgb(130, 202, 250);
-    color: black;
-    font-weight: 600;
-    font-size: 1rem;
-    border-radius: 5px;
-    padding: 8px 15px;
-    letter-spacing: 1px;
-    cursor: pointer; 
+   
 }
 
 @media (max-width: 768px) {

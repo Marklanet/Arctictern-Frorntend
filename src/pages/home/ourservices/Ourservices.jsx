@@ -1,5 +1,6 @@
 import React from "react";
 import "./ourservices.css";
+import { Link } from "react-router-dom";
 
 export default function Ourservices() {
   return (
@@ -9,8 +10,8 @@ export default function Ourservices() {
           <h2>Research Proporsal</h2>
           <p>
             Worried about your research proposal and submitting it on time?
-            Worry no more; Help for Assessment is a top-notch help provider in
-            all fields. We guarantee:
+            Worry no more, Arctictern Writers is a top- help provider in all
+            fields. We guarantee:
           </p>
           <div className="some2">
             <ul>
@@ -24,6 +25,9 @@ export default function Ourservices() {
               <li>Precise Reference List</li>
             </ul>
           </div>
+          <button className="btn2">
+            <Link to="/order-now">Order Now</Link>
+          </button>
         </div>
         <div className="lft">
           <h2>Custom Essays</h2>
@@ -43,6 +47,9 @@ export default function Ourservices() {
               <li>Innovative</li>
             </ul>
           </div>
+          <button className="btn2">
+            <Link to="/order-now">Order Now</Link>
+          </button>
         </div>
       </div>
 
@@ -51,13 +58,13 @@ export default function Ourservices() {
           <h2>Case Study</h2>
           <p>
             Are you looking for a reliable company to complete your case study
-            assignment with ease? Here at Help for Assessment, we have a pool of
-            skilled writers ready to give quality work that matches the expected
-            format and style.
+            assignment with ease? Here at Arctictern Writers, we have a pool of
+            qualified writers ready to give high quality work that fits the
+            expected format.
           </p>
           <div className="some2">
             <ul>
-              <li> Extensively Researched</li>
+              <li>Extensively Researched</li>
               <li>Clear Logical</li>
               <li>Properly Referenced</li>
             </ul>
@@ -67,27 +74,33 @@ export default function Ourservices() {
               <li>Factual Data</li>
             </ul>
           </div>
+          <button className="btn2">
+            <Link to="/order-now">Order Now</Link>
+          </button>
         </div>
         <div className="lft">
           <h2>Literature Review</h2>
           <p>
-            Literature Review is not only a mere summary but also a critical and
-            detailed evaluation of a particular work or concept in regards to
-            theoretical concerns and specific issues raised in your research
+            Literature Review is not only a summary but also a specified
+            detailed evaluation of a individual work or concept in regards to
+            theoretical concepts and specific issues raised in your research
             topic. We ensure:
           </p>
           <div className="some2 some33">
             <ul>
               <li>Swift Delivery</li>
               <li>Zero-Plagiarism</li>
-              <li>Meticulous Spell Checking</li>
+              <li>Spell Checking</li>
             </ul>
             <ul>
-              <li>Excellent Complete Critique</li>
+              <li>Complete Critique</li>
               <li>Expertly Assignments</li>
               <li>Free Unlimited Revisions</li>
             </ul>
           </div>
+          <button className="btn2">
+            <Link to="/order-now">Order Now</Link>
+          </button>
         </div>
       </div>
     </div>
