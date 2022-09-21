@@ -80,26 +80,26 @@ export const type = [
 export const level = [
     {
         name: "High School",
-        value: "1",
+        value: "19",
     },
     {
         name: "Undergraduate (yrs 1-2)",
-        value: "2",
+        value: "24",
     },
     {
         name: "Undergraduate (yrs 3-4)",
-        value: "3",
+        value: "25",
     },
     {
         name: "Masters",
-        value: "4",
+        value: "30",
     },
     {
         name: "IB Level",
-        value: "5",
+        value: "35",
     },
     {
         name: "Doctoral",
-        value: "6",
+        value: "40",
     },
 ];

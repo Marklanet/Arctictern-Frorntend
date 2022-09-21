@@ -26,8 +26,8 @@
     border-bottom: 2px solid wheat !important;
 }
 .orderform .price span{
-    background-color: rgb(229, 112, 112);
-    text-decoration: line-through;
+    background-color: transparent;
+    text-decoration: line-through red ;
     margin-right: 5vh;
     padding: 5px 15px;
     border-radius: 5px;
@@ -35,7 +35,7 @@
     
 }
 .orderform .price b{
-    background-color: green;
+    background-color: #fff;
     padding: 5px 15px;
     border-radius: 5px;
 }

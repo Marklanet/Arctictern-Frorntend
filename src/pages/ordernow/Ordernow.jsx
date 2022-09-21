@@ -13,7 +13,7 @@ import { singleserice } from "../../pages/services/singleservice/singleServiceDa
 
 const Ordernow = () => {
   const navigate = useNavigate();
-  const discount = 0.3;
+
   const pages = [];
   for (let i = 1; i < 201; i++) {
     pages.push(`${i} pages / ${i * 275} words`);
@@ -26,12 +26,14 @@ const Ordernow = () => {
   const [formData, setFormData] = React.useState({
     CATEGORY: "",
     TYPE: "1",
+    STYLE: "APA",
     PAGES: "1",
     SPACING: "1",
-    LEVEL: "1",
+    LEVEL: "19",
     DEADLINE: "1",
-    TOPIC: "",
-    SUBJECT: "",
+    TOPIC: "not selected",
+    SUBJECT: "not selected",
+    REFERENCES: "1",
     CURRENCY: "USD",
   });
 
@@ -47,11 +49,10 @@ const Ordernow = () => {
     e.preventDefault();
     const pagefilter = formData.PAGES.split(" ");
     const totalprice =
-      20 *
       formData.LEVEL *
       formData.SPACING *
-      formData.TYPE *
-      (pagefilter[0] * 0.5);
+      formData.DEADLINE *
+      (pagefilter[0] * 1);
     setPrice(totalprice);
   };
   const handleOrder = (e) => {
@@ -166,9 +167,9 @@ const Ordernow = () => {
         </div>
         <div className="boxx">
           <span>SOURCES</span>
-          <select name={"LEVEL"} onChange={handleChange}>
+          <select name={"SOURCES"} onChange={handleChange}>
             {source.map((list, index) => (
-              <option key={index} value={list.value}>
+              <option key={index} value={list.name}>
                 {list.name}
               </option>
             ))}
@@ -176,7 +177,7 @@ const Ordernow = () => {
         </div>
         <div className="boxx">
           <span>REFERENCES</span>
-          <select name={"LEVEL"} onChange={handleChange}>
+          <select name={"REFERENCES"} onChange={handleChange}>
             {reference.map((list, index) => (
               <option key={index} value={list}>
                 {list}
@@ -186,9 +187,9 @@ const Ordernow = () => {
         </div>
         <div className="boxx">
           <span>STYLE</span>
-          <select name={"LEVEL"} onChange={handleChange}>
+          <select name={"STYLE"} onChange={handleChange}>
             {style.map((list, index) => (
-              <option key={index} value={list.value}>
+              <option key={index} value={list.name}>
                 {list.name}
               </option>
             ))}
@@ -210,7 +211,7 @@ const Ordernow = () => {
           </button>
 
           <div className="price">
-            <b>{price * (1 - discount)} $USD</b>
+            <b>{price} $USD</b>
           </div>
         </div>
 

@@ -43,67 +43,67 @@ const Pricing = () => {
               </tr>
               <tr>
                 <td>1-5</td>
-                <td>2 USD</td>
-                <td>3 USD</td>
-                <td>4 USD</td>
-                <td>5 USD</td>
-                <td>6 USD</td>
+                <td>19 USD</td>
+                <td>25 USD</td>
+                <td>30 USD</td>
+                <td>35 USD</td>
+                <td>40 USD</td>
               </tr>
               <tr>
                 <td>5-10</td>
-                <td>2 USD</td>
-                <td>3 USD</td>
-                <td>4 USD</td>
-                <td>5 USD</td>
-                <td>6 USD</td>
+                <td>19 USD</td>
+                <td>25 USD</td>
+                <td>30 USD</td>
+                <td>35 USD</td>
+                <td>40 USD</td>
               </tr>
               <tr>
                 <td>10-15</td>
-                <td>2 USD</td>
-                <td>3 USD</td>
-                <td>4 USD</td>
-                <td>5 USD</td>
-                <td>6 USD</td>
+                <td>19 USD</td>
+                <td>25 USD</td>
+                <td>30 USD</td>
+                <td>35 USD</td>
+                <td>40 USD</td>
               </tr>
               <tr>
                 <td>15-20</td>
-                <td>2 USD</td>
-                <td>3 USD</td>
-                <td>4 USD</td>
-                <td>5 USD</td>
-                <td>6 USD</td>
+                <td>19 USD</td>
+                <td>25 USD</td>
+                <td>30 USD</td>
+                <td>35 USD</td>
+                <td>40 USD</td>
               </tr>
               <tr>
                 <td>20-50</td>
-                <td>2 USD</td>
-                <td>3 USD</td>
-                <td>4 USD</td>
-                <td>5 USD</td>
-                <td>6 USD</td>
+                <td>19 USD</td>
+                <td>25 USD</td>
+                <td>30 USD</td>
+                <td>35 USD</td>
+                <td>40 USD</td>
               </tr>
               <tr>
                 <td>50-100</td>
-                <td>2 USD</td>
-                <td>3 USD</td>
-                <td>4 USD</td>
-                <td>5 USD</td>
-                <td>6 USD</td>
+                <td>19 USD</td>
+                <td>25 USD</td>
+                <td>30 USD</td>
+                <td>35 USD</td>
+                <td>40 USD</td>
               </tr>
               <tr>
                 <td>100-200</td>
-                <td>2 USD</td>
-                <td>3 USD</td>
-                <td>4 USD</td>
-                <td>5 USD</td>
-                <td>6 USD</td>
+                <td>19 USD</td>
+                <td>25 USD</td>
+                <td>30 USD</td>
+                <td>35 USD</td>
+                <td>40 USD</td>
               </tr>
               <tr>
                 <td>Over 200</td>
-                <td>2 USD</td>
-                <td>3 USD</td>
-                <td>4 USD</td>
-                <td>5 USD</td>
-                <td>6 USD</td>
+                <td>19 USD</td>
+                <td>25 USD</td>
+                <td>30 USD</td>
+                <td>35 USD</td>
+                <td>40 USD</td>
               </tr>
             </table>
           </div>

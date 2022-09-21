@@ -6,7 +6,7 @@ import { singleserice } from "../../pages/services/singleservice/singleServiceDa
 
 const Orderform = () => {
   const navigate = useNavigate();
-  const discount = 0.3;
+  const discount = 0.2;
   const pages = [];
   for (let i = 1; i < 201; i++) {
     pages.push(`${i} pages / ${i * 275} words`);
@@ -17,7 +17,7 @@ const Orderform = () => {
     TYPE: "1",
     PAGES: "1",
     SPACING: "1",
-    LEVEL: "1",
+    LEVEL: "19",
     DEADLINE: "1",
   });
 
@@ -33,11 +33,10 @@ const Orderform = () => {
     e.preventDefault();
     const pagefilter = formData.PAGES.split(" ");
     const totalprice =
-      20 *
       formData.LEVEL *
       formData.SPACING *
-      formData.TYPE *
-      (pagefilter[0] * 0.5);
+      formData.DEADLINE *
+      (pagefilter[0] * 1);
     setPrice(totalprice);
   };
   const handleOrder = (e) => {
@@ -105,7 +104,7 @@ const Orderform = () => {
 
           <div className="price">
             <span>{price} $USD</span>
-            <b>{price * (1 - discount)} $USD</b>
+            <b>{(price * (1 - discount)).toFixed(2)} $USD</b>
           </div>
 
           <button className="btn3" onClick={handleOrder}>
